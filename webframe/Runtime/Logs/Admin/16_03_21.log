@@ -1,0 +1,1764 @@
+[ 2016-03-21T09:30:20+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0022s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T09:32:12+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0010s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T09:34:33+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/accessDisInsert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+
+[ 2016-03-21T09:34:58+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/accessDisInsert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `role_access` [ RunTime:0.0010s ]
+SQL: DELETE FROM `role_access` WHERE ( role_id='1' ) [ RunTime:0.0015s ]
+SQL: INSERT INTO `role_access` (`role_id`,`access_id`) VALUES ('1','1') [ RunTime:0.0015s ]
+SQL: DELETE FROM `role_access` WHERE ( role_id='1' ) [ RunTime:0.0006s ]
+SQL: INSERT INTO `role_access` (`role_id`,`access_id`) VALUES ('1','3') [ RunTime:0.0006s ]
+
+[ 2016-03-21T09:34:59+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T09:36:07+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-21T09:36:14+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/accessDisInsert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `role_access` [ RunTime:0.0008s ]
+SQL: DELETE FROM `role_access` WHERE ( role_id='1' ) [ RunTime:0.0015s ]
+SQL: INSERT INTO `role_access` (`role_id`,`access_id`) VALUES ('1','1') [ RunTime:0.0012s ]
+SQL: INSERT INTO `role_access` (`role_id`,`access_id`) VALUES ('1','3') [ RunTime:0.0005s ]
+
+[ 2016-03-21T09:36:14+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T09:46:53+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/accessDisInsert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `role_access` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `role_access` [ RunTime:0.0006s ]
+SQL: DELETE FROM `role_access` WHERE ( role_id='1' ) [ RunTime:0.0013s ]
+SQL: INSERT INTO `role_access` (`role_id`,`access_id`) VALUES ('1','3') [ RunTime:0.0011s ]
+
+[ 2016-03-21T09:46:53+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T09:47:13+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/accessDisInsert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `role_access` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `role_access` [ RunTime:0.0007s ]
+SQL: DELETE FROM `role_access` WHERE ( role_id='6' ) [ RunTime:0.0003s ]
+SQL: INSERT INTO `role_access` (`role_id`,`access_id`) VALUES ('6','1') [ RunTime:0.0023s ]
+SQL: INSERT INTO `role_access` (`role_id`,`access_id`) VALUES ('6','3') [ RunTime:0.0007s ]
+
+[ 2016-03-21T09:47:13+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T10:40:47+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-21T10:40:52+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `menu` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="10" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `menu` WHERE ( parentid='10' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="21" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="11" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `menu` WHERE ( parentid='11' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="13" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="14" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="17" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="20" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="12" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `menu` WHERE ( parentid='12' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="18" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="19" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="22" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="23" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="24" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-21T10:41:19+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T10:41:21+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `menu` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="10" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `menu` WHERE ( parentid='10' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="21" and ishidden=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="11" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `menu` WHERE ( parentid='11' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="13" and ishidden=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="14" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="17" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="20" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="12" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `menu` WHERE ( parentid='12' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="18" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="19" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="22" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="23" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="24" and ishidden=0 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-21T10:48:00+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `menu` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="10" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `menu` WHERE ( parentid='10' and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="21" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="11" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `menu` WHERE ( parentid='11' and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="13" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="14" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="17" and ishidden=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="20" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="12" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `menu` WHERE ( parentid='12' and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="18" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="19" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="22" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="23" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid="24" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T14:49:59+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T14:53:23+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-21T14:53:25+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T14:53:30+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/User/ajaxIndex?limit=15&offset=0&sort=user.user_id&order=desc&isAdmin=0&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT user.user_id,user.user_name,user.org_id,account.user_account,account.role_id,account.isenable,account.user_account_id FROM `user` `user`,`user_account` `account` WHERE ( account.user_id=user.user_id and account.is_admin='0' ) ORDER BY user.user_id desc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_name` FROM `role` WHERE ( role_id='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0007s ]
+SQL: SELECT `org_name` FROM `organization` WHERE ( org_id='8' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` `user`,`user_account` `account` WHERE ( account.user_id=user.user_id and account.is_admin='0' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-03-21T14:53:32+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/User/ajaxIndex?limit=15&offset=0&sort=user.user_id&order=desc&isAdmin=1&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT user.user_id,user.user_name,user.org_id,account.user_account,account.role_id,account.isenable,account.user_account_id FROM `user` `user`,`user_account` `account` WHERE ( account.user_id=user.user_id and account.is_admin='1' ) ORDER BY user.user_id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` `user`,`user_account` `account` WHERE ( account.user_id=user.user_id and account.is_admin='1' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-03-21T14:53:38+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/User/ajaxIndex?limit=15&offset=0&sort=user.user_id&order=desc&isAdmin=0&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT user.user_id,user.user_name,user.org_id,account.user_account,account.role_id,account.isenable,account.user_account_id FROM `user` `user`,`user_account` `account` WHERE ( account.user_id=user.user_id and account.is_admin='0' ) ORDER BY user.user_id desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0006s ]
+SQL: SELECT `role_name` FROM `role` WHERE ( role_id='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0007s ]
+SQL: SELECT `org_name` FROM `organization` WHERE ( org_id='8' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` `user`,`user_account` `account` WHERE ( account.user_id=user.user_id and account.is_admin='0' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T14:53:41+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/User/ajaxIndex?limit=15&offset=0&sort=user.user_id&order=desc&isAdmin=1&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT user.user_id,user.user_name,user.org_id,account.user_account,account.role_id,account.isenable,account.user_account_id FROM `user` `user`,`user_account` `account` WHERE ( account.user_id=user.user_id and account.is_admin='1' ) ORDER BY user.user_id desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` `user`,`user_account` `account` WHERE ( account.user_id=user.user_id and account.is_admin='1' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T14:53:41+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/User/ajaxIndex?limit=15&offset=0&sort=user.user_id&order=desc&isAdmin=1&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT user.user_id,user.user_name,user.org_id,account.user_account,account.role_id,account.isenable,account.user_account_id FROM `user` `user`,`user_account` `account` WHERE ( account.user_id=user.user_id and account.is_admin='1' ) ORDER BY user.user_id desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` `user`,`user_account` `account` WHERE ( account.user_id=user.user_id and account.is_admin='1' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T14:53:43+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Useraccount/ajaxIndex?limit=15&offset=0&sort=account.user_account_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT user.user_name,account.user_account_id,account.user_account,account.role_id,account.isenable,account.is_admin FROM `user` `user`,`user_account` `account` WHERE ( account.user_id=user.user_id ) ORDER BY account.user_account_id desc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0006s ]
+SQL: SELECT `role_name` FROM `role` WHERE ( role_id='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` `user`,`user_account` `account` WHERE ( account.user_id=user.user_id ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-21T14:53:43+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Useraccount/ajaxIndex?limit=15&offset=0&sort=account.user_account_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT user.user_name,account.user_account_id,account.user_account,account.role_id,account.isenable,account.is_admin FROM `user` `user`,`user_account` `account` WHERE ( account.user_id=user.user_id ) ORDER BY account.user_account_id desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0006s ]
+SQL: SELECT `role_name` FROM `role` WHERE ( role_id='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` `user`,`user_account` `account` WHERE ( account.user_id=user.user_id ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T15:59:51+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `menu` WHERE `menu_id` IN ('menu_name','menu_id')  [ RunTime:0.0074s ]
+
+[ 2016-03-21T16:00:43+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0006s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'webframework.role_menu' doesn't exist
+
+[ 2016-03-21T16:02:19+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='1' )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 203 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+
+[ 2016-03-21T16:14:17+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T16:14:28+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0017s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='1' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 203 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+
+[ 2016-03-21T16:29:38+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T16:29:41+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='1' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 203 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+
+[ 2016-03-21T16:30:06+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='1' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 203 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+
+[ 2016-03-21T16:31:40+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T16:31:44+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='6' )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 203 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+
+[ 2016-03-21T16:32:44+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='1' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 203 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+
+[ 2016-03-21T16:33:27+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T16:33:31+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='1' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 203 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+
+[ 2016-03-21T16:40:18+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T16:40:21+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='1' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 203 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 231 行.
+
+[ 2016-03-21T16:50:45+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T16:52:05+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='6' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 205 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+
+[ 2016-03-21T16:52:36+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='6' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 205 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+
+[ 2016-03-21T16:53:17+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T16:53:20+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='6' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 205 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+
+[ 2016-03-21T17:21:14+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T17:21:22+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='1' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 205 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+
+[ 2016-03-21T17:23:06+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='1' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 205 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+
+[ 2016-03-21T17:26:47+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T17:26:51+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='6' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 205 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+
+[ 2016-03-21T17:34:20+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T17:34:59+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T17:36:53+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T17:37:27+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0011s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T17:37:30+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='6' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 205 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+
+[ 2016-03-21T17:38:22+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T17:38:24+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='6' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 205 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+
+[ 2016-03-21T17:39:27+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T17:39:30+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='6' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 205 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+
+[ 2016-03-21T17:40:16+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T17:40:28+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T17:40:35+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='6' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 205 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 233 行.
+
+[ 2016-03-21T17:40:42+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/menuDisInsert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000196s ]
+
+[ 2016-03-21T18:00:22+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-21T18:00:27+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='6' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+
+[ 2016-03-21T18:00:35+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/menuDisInsert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0006s ]
+SQL: DELETE FROM `role_menu` WHERE ( role_id='6' ) [ RunTime:0.0005s ]
+SQL: INSERT INTO `role_menu` (`role_id`,`menu_id`) VALUES ('6','2') [ RunTime:0.0012s ]
+SQL: INSERT INTO `role_menu` (`role_id`,`menu_id`) VALUES ('6','21') [ RunTime:0.0005s ]
+
+[ 2016-03-21T18:01:09+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T18:01:12+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='6' )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+
+[ 2016-03-21T18:02:48+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T18:02:52+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='6' )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 206 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 234 行.
+
+[ 2016-03-21T18:04:10+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T18:04:14+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='6' )  [ RunTime:0.0001s ]
+
+[ 2016-03-21T18:07:02+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-21T18:07:05+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='6' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 207 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+
+[ 2016-03-21T18:34:04+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T18:34:10+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='6' )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 207 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+
+[ 2016-03-21T18:35:22+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T18:35:25+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='6' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: selected /var/www/html/webframework/webframe/Admin/Controller/RoleController.class.php 第 236 行.
+
+[ 2016-03-21T18:36:12+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-21T18:36:15+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='6' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T18:36:25+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T18:36:54+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/User/ajaxIndex?limit=15&offset=0&sort=user.user_id&order=desc&isAdmin=0&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT user.user_id,user.user_name,user.org_id,account.user_account,account.role_id,account.isenable,account.user_account_id FROM `user` `user`,`user_account` `account` WHERE ( account.user_id=user.user_id and account.is_admin='0' ) ORDER BY user.user_id desc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0006s ]
+SQL: SELECT `role_name` FROM `role` WHERE ( role_id='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0006s ]
+SQL: SELECT `org_name` FROM `organization` WHERE ( org_id='8' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` `user`,`user_account` `account` WHERE ( account.user_id=user.user_id and account.is_admin='0' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-03-21T18:36:55+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/User/ajaxIndex?limit=15&offset=0&sort=user.user_id&order=desc&isAdmin=1&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT user.user_id,user.user_name,user.org_id,account.user_account,account.role_id,account.isenable,account.user_account_id FROM `user` `user`,`user_account` `account` WHERE ( account.user_id=user.user_id and account.is_admin='1' ) ORDER BY user.user_id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` `user`,`user_account` `account` WHERE ( account.user_id=user.user_id and account.is_admin='1' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-03-21T18:36:57+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T18:36:59+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Access/ajaxIndex?limit=15&offset=0&sort=account.user_account_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `access` [ RunTime:0.0012s ]
+SQL: SELECT `access_id`,`access_name`,`access_url`,`remark` FROM `access`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `access` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T18:37:00+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/User/ajaxIndex?limit=15&offset=0&sort=user.user_id&order=desc&isAdmin=1&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT user.user_id,user.user_name,user.org_id,account.user_account,account.role_id,account.isenable,account.user_account_id FROM `user` `user`,`user_account` `account` WHERE ( account.user_id=user.user_id and account.is_admin='1' ) ORDER BY user.user_id desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` `user`,`user_account` `account` WHERE ( account.user_id=user.user_id and account.is_admin='1' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T18:37:07+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T18:37:09+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="5" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="8" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='8' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="9" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='9' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="10" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T18:37:10+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T18:37:13+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/getOrgTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="8" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='8' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="9" and ishidden=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="10" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="11" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="12" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T18:37:22+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T18:37:28+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='9' and parentid='0' )  [ RunTime:0.0004s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='10' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='10' WHERE ( menu_id='2' ) [ RunTime:0.0017s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 69 行.
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='' and parentid='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0007s ]
+SQL: UPDATE `menu` SET `menu_id`='2',`menu_name`='一级菜单2',`parentid`='0',`menu_url`='con/fun',`sort`='9',`ishidden`='1' WHERE ( menu_id='2' ) [ RunTime:0.0013s ]
+
+[ 2016-03-21T18:37:28+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-21T18:38:16+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T18:41:12+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='2' )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-21T19:25:52+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T19:25:56+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T19:26:01+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0011s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='1' )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T19:26:12+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/menuDisInsert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0006s ]
+SQL: DELETE FROM `role_menu` WHERE ( role_id='1' ) [ RunTime:0.0004s ]
+SQL: INSERT INTO `role_menu` (`role_id`,`menu_id`) VALUES ('1','21') [ RunTime:0.0015s ]
+SQL: INSERT INTO `role_menu` (`role_id`,`menu_id`) VALUES ('1','13') [ RunTime:0.0006s ]
+SQL: INSERT INTO `role_menu` (`role_id`,`menu_id`) VALUES ('1','14') [ RunTime:0.0006s ]
+SQL: INSERT INTO `role_menu` (`role_id`,`menu_id`) VALUES ('1','17') [ RunTime:0.0012s ]
+SQL: INSERT INTO `role_menu` (`role_id`,`menu_id`) VALUES ('1','20') [ RunTime:0.0007s ]
+SQL: INSERT INTO `role_menu` (`role_id`,`menu_id`) VALUES ('1','18') [ RunTime:0.0005s ]
+SQL: INSERT INTO `role_menu` (`role_id`,`menu_id`) VALUES ('1','19') [ RunTime:0.0005s ]
+SQL: INSERT INTO `role_menu` (`role_id`,`menu_id`) VALUES ('1','22') [ RunTime:0.0015s ]
+SQL: INSERT INTO `role_menu` (`role_id`,`menu_id`) VALUES ('1','23') [ RunTime:0.0008s ]
+SQL: INSERT INTO `role_menu` (`role_id`,`menu_id`) VALUES ('1','24') [ RunTime:0.0042s ]
+
+[ 2016-03-21T19:26:12+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T19:26:27+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/getMenuTree?role_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_name`,`menu_id` FROM `menu` WHERE ( parentid=0 and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `role_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `role_menu` WHERE ( role_id='1' )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='10' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='10' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='21' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='13' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='14' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='17' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='20' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='12' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `menu_name`,`menu_id`,`parentid` FROM `menu` WHERE ( parentid='12' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='18' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='19' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='22' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='23' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='24' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T19:26:33+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T21:37:07+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T21:37:13+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/User/ajaxIndex?limit=15&offset=0&sort=user.user_id&order=desc&isAdmin=1&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT user.user_id,user.user_name,user.org_id,account.user_account,account.role_id,account.isenable,account.user_account_id FROM `user` `user`,`user_account` `account` WHERE ( account.user_id=user.user_id and account.is_admin='1' ) ORDER BY user.user_id desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` `user`,`user_account` `account` WHERE ( account.user_id=user.user_id and account.is_admin='1' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-21T21:37:55+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T21:38:05+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T21:38:16+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-21T21:38:39+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-21T21:38:41+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0014s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+

@@ -1,0 +1,1211 @@
+[ 2016-03-15T08:39:45+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0015s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='1' and parentid='' )  [ RunTime:0.0007s ]
+SQL: UPDATE `menu` SET `sort`='2' WHERE ( menu_id='1' ) [ RunTime:0.0014s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='1' and parentid='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: INSERT INTO `menu` (`parentid`,`menu_name`,`menu_url`,`sort`,`ishidden`) VALUES ('0','一级菜单5','con/fun','1','0') [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000120s ]
+
+[ 2016-03-15T08:41:21+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0012s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='1' and parentid='' )  [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `sort`='2' WHERE ( menu_id='1' ) [ RunTime:0.0016s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='1' and parentid='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: INSERT INTO `menu` (`parentid`,`menu_name`,`menu_url`,`sort`,`ishidden`) VALUES ('0','一级菜单5','con/fun','1','0') [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000134s ]
+
+[ 2016-03-15T08:42:50+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='1' and parentid='' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0007s ]
+SQL: INSERT INTO `menu` (`parentid`,`menu_name`,`menu_url`,`sort`,`ishidden`) VALUES ('0','一级菜单5','con/fun','1','0') [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000122s ]
+
+[ 2016-03-15T08:45:38+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='1' and parentid='' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: INSERT INTO `menu` (`parentid`,`menu_name`,`menu_url`,`sort`,`ishidden`) VALUES ('0','一级菜单5','con/fun','1','0') [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000191s ]
+
+[ 2016-03-15T08:47:32+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='1' and parentid='' )  [ RunTime:0.0005s ]
+SQL: UPDATE `menu` SET `sort`='2' WHERE ( menu_id='1' ) [ RunTime:0.0016s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1 )' at line 1
+
+[ 2016-03-15T08:48:04+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='1' and parentid='' )  [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `sort`='2' WHERE ( menu_id='1' ) [ RunTime:0.0016s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1 )' at line 1
+
+[ 2016-03-15T08:58:07+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0012s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='1' and parentid='' )  [ RunTime:0.0006s ]
+SQL: UPDATE `menu` SET `sort`='2' WHERE ( menu_id='1' ) [ RunTime:0.0041s ]
+SQL: SELECT `parentid`,`sort` FROM `menu` WHERE ( menu_id='1' )  [ RunTime:0.0003s ]
+
+[ 2016-03-15T09:02:47+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='1' and parentid='0' )  [ RunTime:0.0005s ]
+SQL: SELECT `parentid`,`sort` FROM `menu` WHERE ( menu_id='1' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='2' WHERE ( menu_id='1' ) [ RunTime:0.0014s ]
+
+[ 2016-03-15T09:04:26+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='1' and parentid='0' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: ishidden /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 43 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0007s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ishidden' cannot be null
+
+[ 2016-03-15T09:07:14+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0011s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='1' and parentid='0' )  [ RunTime:0.0006s ]
+SQL: SELECT `parentid`,`sort` FROM `menu` WHERE ( menu_id='1' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='2' WHERE ( menu_id='1' ) [ RunTime:0.0014s ]
+
+[ 2016-03-15T09:14:59+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0011s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='1' and parentid='0' )  [ RunTime:0.0006s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( menu_id='1' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='2' WHERE ( menu_id='1' ) [ RunTime:0.0016s ]
+
+[ 2016-03-15T09:19:14+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0013s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='1' and parentid='0' )  [ RunTime:0.0006s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='2' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='2' WHERE ( menu_id='1' ) [ RunTime:0.0013s ]
+
+[ 2016-03-15T09:19:55+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='1' and parentid='0' )  [ RunTime:0.0005s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='2' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='2' WHERE ( menu_id='1' ) [ RunTime:0.0013s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( menu_id='2' )  [ RunTime:0.0003s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='4' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='4' WHERE ( menu_id='2' ) [ RunTime:0.0006s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( menu_id='4' )  [ RunTime:0.0003s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='6' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='6' WHERE ( menu_id='4' ) [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 72 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 72 行.
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='1' and parentid='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: INSERT INTO `menu` (`parentid`,`menu_name`,`menu_url`,`sort`,`ishidden`) VALUES ('0','一级菜单5','con/fun','1','0') [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000131s ]
+
+[ 2016-03-15T09:22:55+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='1' and parentid='0' )  [ RunTime:0.0005s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='2' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='2' WHERE ( menu_id='1' ) [ RunTime:0.0015s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( menu_id='2' )  [ RunTime:0.0003s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='3' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='3' WHERE ( menu_id='2' ) [ RunTime:0.0011s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( menu_id='3' )  [ RunTime:0.0003s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='4' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='4' WHERE ( menu_id='3' ) [ RunTime:0.0006s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( menu_id='4' )  [ RunTime:0.0003s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='5' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='5' WHERE ( menu_id='4' ) [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 72 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 72 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 72 行.
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='' and parentid='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: INSERT INTO `menu` (`parentid`,`menu_name`,`menu_url`,`sort`,`ishidden`) VALUES ('0','一级菜单5','con/fun','1','0') [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000180s ]
+
+[ 2016-03-15T09:23:46+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='1' and parentid='0' )  [ RunTime:0.0005s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='2' and parentid='0' )  [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `sort`='2' WHERE ( menu_id='10' ) [ RunTime:0.0014s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( menu_id='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='3' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='3' WHERE ( menu_id='1' ) [ RunTime:0.0006s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( menu_id='2' )  [ RunTime:0.0003s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='4' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='4' WHERE ( menu_id='2' ) [ RunTime:0.0006s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( menu_id='3' )  [ RunTime:0.0003s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='5' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='5' WHERE ( menu_id='3' ) [ RunTime:0.0006s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( menu_id='4' )  [ RunTime:0.0003s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='6' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='6' WHERE ( menu_id='4' ) [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 67 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 67 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 67 行.
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='' and parentid='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: INSERT INTO `menu` (`parentid`,`menu_name`,`menu_url`,`sort`,`ishidden`) VALUES ('0','一级菜单6','con/fun','1','0') [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000188s ]
+
+[ 2016-03-15T09:24:39+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='2' and parentid='0' )  [ RunTime:0.0005s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='3' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='3' WHERE ( menu_id='10' ) [ RunTime:0.0017s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( menu_id='1' )  [ RunTime:0.0005s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='4' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='4' WHERE ( menu_id='1' ) [ RunTime:0.0011s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( menu_id='2' )  [ RunTime:0.0003s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='5' and parentid='0' )  [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `sort`='5' WHERE ( menu_id='2' ) [ RunTime:0.0011s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( menu_id='3' )  [ RunTime:0.0003s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='6' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='6' WHERE ( menu_id='3' ) [ RunTime:0.0006s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( menu_id='4' )  [ RunTime:0.0003s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='7' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='7' WHERE ( menu_id='4' ) [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 68 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 68 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 68 行.
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='' and parentid='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: INSERT INTO `menu` (`parentid`,`menu_name`,`menu_url`,`sort`,`ishidden`) VALUES ('0','一级菜单7','con/fun','2','0') [ RunTime:0.0014s ]
+
+[ 2016-03-15T09:41:08+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0007s ]
+
+[ 2016-03-15T09:43:58+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu`  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0095s ]
+
+[ 2016-03-15T09:44:25+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T09:47:33+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu`  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T09:47:45+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-15T09:48:42+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T09:49:11+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T09:49:13+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu`  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T09:49:29+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` ORDER BY sort desc  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T09:49:45+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T10:45:16+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T10:48:58+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T10:49:24+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T10:50:01+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T10:54:14+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T10:54:26+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0011s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T10:54:29+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/getchild
+ERR: 非法操作:getchild
+
+[ 2016-03-15T10:55:54+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0011s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T10:56:02+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T10:56:06+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T10:56:16+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T10:56:19+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` ORDER BY sort asc  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T10:56:27+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T10:56:31+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T11:26:13+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&parentid=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0011s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='' ) ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-15T11:35:48+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='' ) ORDER BY sort asc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 129 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T11:35:59+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='' ) ORDER BY sort asc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 129 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T11:36:06+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` ORDER BY sort asc  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T11:36:09+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0015s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='' ) ORDER BY sort asc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 129 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T11:38:20+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='1' and parentid='11' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: INSERT INTO `menu` (`parentid`,`menu_name`,`menu_url`,`sort`,`ishidden`) VALUES ('11','一级菜单6子菜单1','con/fun','1','0') [ RunTime:0.0015s ]
+
+[ 2016-03-15T11:38:21+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='' ) ORDER BY sort asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 129 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-15T11:39:10+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='1' and parentid='11' )  [ RunTime:0.0005s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='2' and parentid='11' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='2' WHERE ( menu_id='13' ) [ RunTime:0.0015s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 69 行.
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='' and parentid='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: INSERT INTO `menu` (`parentid`,`menu_name`,`menu_url`,`sort`,`ishidden`) VALUES ('11','一级菜单6子菜单2','con/fun','1','0') [ RunTime:0.0014s ]
+
+[ 2016-03-15T11:39:10+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='' ) ORDER BY sort asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 129 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-15T11:40:42+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+
+[ 2016-03-15T11:41:05+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+
+[ 2016-03-15T11:41:22+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 130 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T11:41:37+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-15T11:41:39+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 130 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-15T11:41:58+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='1' and parentid='11' )  [ RunTime:0.0005s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='2' and parentid='11' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='2' WHERE ( menu_id='14' ) [ RunTime:0.0016s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( menu_id='13' )  [ RunTime:0.0003s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='3' and parentid='11' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='3' WHERE ( menu_id='13' ) [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 69 行.
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='' and parentid='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: INSERT INTO `menu` (`parentid`,`menu_name`,`menu_url`,`sort`,`ishidden`) VALUES ('11','一级菜单6子菜单3','con/fun','1','0') [ RunTime:0.0012s ]
+
+[ 2016-03-15T11:41:59+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 130 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-15T11:45:47+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T11:56:12+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-15T11:57:05+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T11:57:08+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T11:57:11+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T11:57:15+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-15T11:57:40+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T11:57:44+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T11:58:22+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T11:58:28+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T11:58:33+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=15&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0013s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='15' ) ORDER BY sort asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T11:58:36+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T11:58:38+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T11:58:43+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T11:58:45+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=15&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='15' ) ORDER BY sort asc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T11:58:46+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T11:58:48+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=14&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='14' ) ORDER BY sort asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T11:58:49+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T11:58:51+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0016s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T14:32:17+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T14:33:14+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='1' and parentid='0' )  [ RunTime:0.0005s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='2' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='2' WHERE ( menu_id='11' ) [ RunTime:0.0014s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( menu_id='12' )  [ RunTime:0.0003s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='3' and parentid='0' )  [ RunTime:0.0004s ]
+SQL: UPDATE `menu` SET `sort`='3' WHERE ( menu_id='12' ) [ RunTime:0.0011s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( menu_id='10' )  [ RunTime:0.0003s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='4' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='4' WHERE ( menu_id='10' ) [ RunTime:0.0006s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( menu_id='1' )  [ RunTime:0.0002s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='5' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='5' WHERE ( menu_id='1' ) [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( menu_id='2' )  [ RunTime:0.0003s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='6' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='6' WHERE ( menu_id='2' ) [ RunTime:0.0006s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( menu_id='3' )  [ RunTime:0.0003s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='7' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='7' WHERE ( menu_id='3' ) [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( menu_id='4' )  [ RunTime:0.0003s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='8' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='8' WHERE ( menu_id='4' ) [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 69 行.
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='' and parentid='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: INSERT INTO `menu` (`parentid`,`menu_name`,`menu_url`,`sort`,`ishidden`) VALUES ('0','一级菜单8','con/fun','1','0') [ RunTime:0.0011s ]
+
+[ 2016-03-15T14:33:14+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-15T14:33:51+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T14:33:53+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=16&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='16' ) ORDER BY sort asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-15T14:33:55+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T14:42:51+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0011s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T14:45:55+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T15:06:29+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T15:06:52+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='' and parentid='' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+
+[ 2016-03-15T15:11:01+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='' and parentid='' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+
+[ 2016-03-15T15:11:43+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+
+[ 2016-03-15T15:12:22+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='10' and parentid='0' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0007s ]
+SQL: UPDATE `menu` SET `menu_id`='16',`menu_name`='一级菜单8',`parentid`='0',`menu_url`='con/fun',`sort`='10',`ishidden`='0' WHERE ( menu_id='16' ) [ RunTime:0.0013s ]
+
+[ 2016-03-15T15:12:22+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-15T15:12:36+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='10' and parentid='0' )  [ RunTime:0.0004s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='11' and parentid='0' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='11' WHERE ( menu_id='16' ) [ RunTime:0.0014s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 69 行.
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='' and parentid='' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0007s ]
+SQL: UPDATE `menu` SET `menu_id`='16',`menu_name`='一级菜单8',`parentid`='0',`menu_url`='con/fun',`sort`='10',`ishidden`='1' WHERE ( menu_id='16' ) [ RunTime:0.0007s ]
+
+[ 2016-03-15T15:12:36+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-15T15:25:09+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0011s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T15:25:19+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-15T15:27:58+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T15:28:26+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0011s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='4' and parentid='15' )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: menu_id /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 193 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: menu_id /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 201 行.
+
+[ 2016-03-15T15:29:42+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0014s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='4' and parentid='11' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: UPDATE `menu` SET `menu_id`='15',`menu_name`='一级菜单6子菜单3',`parentid`='11',`menu_url`='con/fun',`sort`='4',`ishidden`='0' WHERE ( menu_id='15' ) [ RunTime:0.0013s ]
+
+[ 2016-03-15T15:29:42+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-15T15:30:09+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='1' and parentid='11' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: INSERT INTO `menu` (`parentid`,`menu_name`,`menu_url`,`sort`,`ishidden`) VALUES ('11','一级菜单6子菜单4','con/fun','1','0') [ RunTime:0.0014s ]
+
+[ 2016-03-15T15:30:09+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0007s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-15T15:31:23+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-15T16:05:08+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T16:05:17+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: ids /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 226 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `parentid` FROM `menu` WHERE ( parentid='' )  [ RunTime:0.0005s ]
+
+[ 2016-03-15T16:05:17+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T16:05:23+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=16&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='16' ) ORDER BY sort asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T16:05:29+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T16:07:40+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T16:07:45+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: ids /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 226 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `menu` WHERE ( parentid='' )  [ RunTime:0.0005s ]
+
+[ 2016-03-15T16:07:45+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0007s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T16:08:15+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T16:08:24+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined variable: ids /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 226 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `menu` WHERE ( parentid='' )  [ RunTime:0.0002s ]
+
+[ 2016-03-15T16:08:24+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T16:09:10+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T16:09:13+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: ids /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 226 行.
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `menu` WHERE ( parentid='' )  [ RunTime:0.0002s ]
+
+[ 2016-03-15T16:09:14+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0007s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-15T16:10:32+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `menu` WHERE ( parentid='16' )  [ RunTime:0.0004s ]
+
+[ 2016-03-15T16:10:32+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T16:11:10+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `menu` WHERE ( parentid='16' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: DELETE FROM `menu` WHERE ( menu_id='16' ) [ RunTime:0.0017s ]
+
+[ 2016-03-15T16:11:10+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-15T16:11:23+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `menu` WHERE ( parentid='11' )  [ RunTime:0.0005s ]
+
+[ 2016-03-15T16:11:23+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T16:11:27+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-15T16:22:13+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T16:22:48+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T16:22:54+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `menu` WHERE ( parentid='15' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: DELETE FROM `menu` WHERE ( menu_id='15' ) [ RunTime:0.0013s ]
+
+[ 2016-03-15T16:22:54+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0007s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-03-15T16:23:35+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T16:23:38+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-15T16:23:43+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T17:49:18+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0011s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-15T22:14:04+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Login/login
+ERR: 模板不存在:/var/www/html/webframework/webframe/Admin/View/Login/showLogin.html
+

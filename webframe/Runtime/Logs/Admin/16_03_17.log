@@ -1,0 +1,2761 @@
+[ 2016-03-17T00:01:38+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T00:01:39+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T00:01:40+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:01:42+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T00:04:53+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:04:54+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T00:04:54+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:04:54+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:04:54+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T00:04:55+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:04:55+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:10:58+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T00:10:59+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:11:00+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:11:16+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T00:11:17+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:12:14+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:12:17+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:12:17+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:12:18+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0006s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:12:18+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0011s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:12:18+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:13:26+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:15:31+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:17:19+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:17:34+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:18:38+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:19:34+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:20:01+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:20:02+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:20:03+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:21:01+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T00:21:04+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T00:21:05+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:14:56+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T01:14:57+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:16:06+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0010s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:16:07+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:21:03+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:21:04+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:22:12+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:23:02+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T01:23:29+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:26:46+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:26:49+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:26:49+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T01:26:49+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:26:50+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:27:00+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T01:27:00+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:27:00+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:27:00+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:28:15+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:28:16+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0012s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0003s ]
+
+[ 2016-03-17T01:28:35+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:28:35+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:28:35+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:28:36+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:28:58+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:28:58+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:28:58+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:28:58+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:28:58+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T01:28:58+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T01:30:51+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:30:51+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:30:52+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:30:52+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:31:26+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T01:31:26+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:31:27+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:31:27+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:32:48+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:32:48+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:32:49+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:33:12+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T01:33:13+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T01:33:13+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T01:33:13+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:33:20+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T01:33:20+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:33:20+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:33:20+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:33:20+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0006s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:33:20+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:33:21+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:33:21+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:38:00+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T01:38:01+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T01:38:01+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:38:16+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000099s ]
+
+[ 2016-03-17T01:46:01+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:46:01+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T01:46:02+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T01:46:24+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+
+[ 2016-03-17T02:06:47+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0010s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T02:06:49+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T02:06:57+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Use of undefined constant length - assumed 'length' /var/www/html/webframework/webframe/Admin/Controller/WorkflowController.class.php 第 41 行.
+NOTIC: [8] Array to string conversion /var/www/html/webframework/webframe/Admin/Controller/WorkflowController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: INSERT INTO `workflow` (`workflow_name`,`workflow_desc`,`steps`) VALUES ('工作流1','工作流1描述                                
+                            ','-2') [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: return /var/www/html/webframework/webframe/Admin/Controller/WorkflowController.class.php 第 78 行.
+
+[ 2016-03-17T02:09:30+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:09:30+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:09:30+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:09:36+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+NOTIC: [2] count() expects at least 1 parameter, 0 given /var/www/html/webframework/webframe/Admin/Controller/WorkflowController.class.php 第 41 行.
+NOTIC: [8] Array to string conversion /var/www/html/webframework/webframe/Admin/Controller/WorkflowController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: INSERT INTO `workflow` (`workflow_name`,`workflow_desc`,`steps`) VALUES ('工作流1','工作流1描述                                
+                            ','-2') [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: return /var/www/html/webframework/webframe/Admin/Controller/WorkflowController.class.php 第 78 行.
+
+[ 2016-03-17T02:11:16+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:11:17+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:11:23+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: INSERT INTO `workflow` (`workflow_name`,`workflow_desc`,`steps`) VALUES ('工作流1','工作流1描述                                
+                            ','2') [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `workflowstep` [ RunTime:0.0007s ]
+SQL: INSERT INTO `workflowstep` (`workflow_id`,`step_now`,`role_id`) VALUES ('3','1','2') [ RunTime:0.0012s ]
+SQL: INSERT INTO `workflowstep` (`workflow_id`,`step_now`,`role_id`) VALUES ('3','2','1') [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: return /var/www/html/webframework/webframe/Admin/Controller/WorkflowController.class.php 第 78 行.
+
+[ 2016-03-17T02:12:36+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:12:37+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:12:42+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: INSERT INTO `workflow` (`workflow_name`,`workflow_desc`,`steps`) VALUES ('工作流2','工作流2描述                                
+                            ','2') [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `workflowstep` [ RunTime:0.0007s ]
+SQL: INSERT INTO `workflowstep` (`workflow_id`,`step_now`,`role_id`) VALUES ('4','1','2') [ RunTime:0.0008s ]
+SQL: INSERT INTO `workflowstep` (`workflow_id`,`step_now`,`role_id`) VALUES ('4','2','1') [ RunTime:0.0005s ]
+
+[ 2016-03-17T02:13:16+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+
+[ 2016-03-17T02:13:38+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T02:13:39+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:13:41+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+
+[ 2016-03-17T02:25:38+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T02:27:54+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:27:57+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: INSERT INTO `workflow` (`workflow_name`,`workflow_desc`,`steps`) VALUES ('工作流3','工作流3描述                                
+                            ','1') [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `workflowstep` [ RunTime:0.0006s ]
+SQL: INSERT INTO `workflowstep` (`workflow_id`,`step_now`,`role_id`) VALUES ('5','1','1') [ RunTime:0.0013s ]
+
+[ 2016-03-17T02:27:57+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0007s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T02:34:30+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:34:58+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:37:38+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:37:39+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000183s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0012s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-17T02:37:40+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-17T02:37:46+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:38:04+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:40:03+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:40:10+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:40:12+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:40:13+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:40:20+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:40:22+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:40:22+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:40:27+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:40:29+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:41:15+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:41:18+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:41:23+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-17T02:41:25+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:42:34+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:42:36+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T02:43:10+08:00 ] 10.16.155.217 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T15:06:15+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0012s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T15:20:25+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0013s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T15:20:33+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0011s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-17T15:36:25+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0010s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T15:36:46+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T15:38:02+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T15:39:38+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T15:40:23+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T15:44:03+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T15:44:16+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T15:44:17+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T15:44:19+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T15:46:29+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T15:47:06+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T15:49:21+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T15:49:41+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T15:50:17+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T15:50:26+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T15:51:09+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0010s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T15:51:43+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-17T15:51:48+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T15:53:17+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T15:53:21+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-17T15:53:25+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T15:54:53+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-17T15:54:58+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T15:54:59+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T15:55:09+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T15:55:09+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T15:55:09+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T15:55:09+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T15:55:10+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T16:08:58+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0010s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T16:09:04+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0012s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T16:09:13+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T16:09:32+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: INSERT INTO `role` (`role_name`,`role_desc`) VALUES ('学生管理员','学生管理员描述                                
+                            ') [ RunTime:0.0022s ]
+
+[ 2016-03-17T16:09:32+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-03-17T16:09:35+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T16:09:41+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0003s ]
+
+[ 2016-03-17T16:10:02+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+
+[ 2016-03-17T16:19:34+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T16:19:48+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: UPDATE `workflow` SET `workflow_name`='工作流2',`workflow_desc`='                             工作流2描述                                
+                               
+                            ',`steps`='3' WHERE ( workflow_id='4' ) [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `workflowstep` [ RunTime:0.0007s ]
+SQL: DELETE FROM `workflowstep` WHERE ( workflow_id='4' ) [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: workflow_id /var/www/html/webframework/webframe/Admin/Controller/WorkflowController.class.php 第 149 行.
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'workflow_id' cannot be null
+
+[ 2016-03-17T16:21:25+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T16:21:34+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T16:21:34+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000193s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T16:22:06+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T16:22:08+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T16:22:30+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T16:22:31+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0010s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T16:22:32+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T16:22:33+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T16:22:34+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T16:23:09+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T16:23:10+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T16:23:10+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T16:23:22+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: UPDATE `workflow` SET `workflow_name`='工作流2',`workflow_desc`='工作流2描述                                
+                               
+                               
+                            ',`steps`='3' WHERE ( workflow_id='4' ) [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `workflowstep` [ RunTime:0.0007s ]
+SQL: DELETE FROM `workflowstep` WHERE ( workflow_id='4' ) [ RunTime:0.0002s ]
+SQL: INSERT INTO `workflowstep` (`workflow_id`,`step_now`,`role_id`) VALUES ('4','1','4') [ RunTime:0.0147s ]
+SQL: INSERT INTO `workflowstep` (`workflow_id`,`step_now`,`role_id`) VALUES ('4','2','2') [ RunTime:0.0012s ]
+SQL: INSERT INTO `workflowstep` (`workflow_id`,`step_now`,`role_id`) VALUES ('4','3','1') [ RunTime:0.0011s ]
+
+[ 2016-03-17T16:23:22+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T16:23:49+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T16:23:58+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: UPDATE `workflow` SET `workflow_name`='工作流3',`workflow_desc`='工作流3描述                                
+                               
+                            ',`steps`='2' WHERE ( workflow_id='5' ) [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `workflowstep` [ RunTime:0.0008s ]
+SQL: DELETE FROM `workflowstep` WHERE ( workflow_id='5' ) [ RunTime:0.0012s ]
+SQL: INSERT INTO `workflowstep` (`workflow_id`,`step_now`,`role_id`) VALUES ('5','1','2') [ RunTime:0.0008s ]
+SQL: INSERT INTO `workflowstep` (`workflow_id`,`step_now`,`role_id`) VALUES ('5','2','1') [ RunTime:0.0118s ]
+
+[ 2016-03-17T16:23:58+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0007s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T16:33:28+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T16:33:42+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T16:33:42+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0002s ]
+
+[ 2016-03-17T16:33:52+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: INSERT INTO `workflow` (`workflow_name`,`workflow_desc`,`steps`) VALUES ('工作流4','工作流4描述                                
+                            ','2') [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `workflowstep` [ RunTime:0.0006s ]
+SQL: INSERT INTO `workflowstep` (`workflow_id`,`step_now`,`role_id`) VALUES ('6','1','4') [ RunTime:0.0012s ]
+SQL: INSERT INTO `workflowstep` (`workflow_id`,`step_now`,`role_id`) VALUES ('6','2','2') [ RunTime:0.0005s ]
+
+[ 2016-03-17T16:33:53+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0007s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T16:34:13+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T16:34:17+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: DELETE FROM `workflow` WHERE ( workflow_id='6' ) [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `workflowstep` [ RunTime:0.0008s ]
+SQL: DELETE FROM `workflowstep` WHERE ( workflow_id='6' ) [ RunTime:0.0011s ]
+
+[ 2016-03-17T16:34:17+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0007s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T16:34:44+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T16:34:48+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T16:35:01+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='5' and parentid='11' )  [ RunTime:0.0005s ]
+SQL: SELECT `parentid`,`sort`,`menu_id` FROM `menu` WHERE ( sort='6' and parentid='11' )  [ RunTime:0.0003s ]
+SQL: UPDATE `menu` SET `sort`='6' WHERE ( menu_id='13' ) [ RunTime:0.0015s ]
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 69 行.
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='' and parentid='' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: UPDATE `menu` SET `menu_id`='13',`menu_name`='类别管理',`parentid`='11',`menu_url`='cate/index',`sort`='5',`ishidden`='0' WHERE ( menu_id='13' ) [ RunTime:0.0012s ]
+
+[ 2016-03-17T16:35:01+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T16:35:13+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/cate/index
+ERR: 无法加载控制器:Cate
+
+[ 2016-03-17T19:13:43+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+ERR: 非法操作:getCateTree
+
+[ 2016-03-17T19:13:55+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+ERR: 非法操作:getCateTree
+
+[ 2016-03-17T19:34:15+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+ERR: 非法操作:getCateTree
+
+[ 2016-03-17T19:34:43+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+
+[ 2016-03-17T19:35:14+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+ERR: 非法操作:getCateTree
+
+[ 2016-03-17T19:35:25+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: INSERT INTO `category` (`cate_name`,`parentid`,`ishidden`) VALUES ('最顶级分类1','0','0') [ RunTime:0.0019s ]
+
+[ 2016-03-17T19:35:25+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+ERR: 非法操作:getCateTree
+
+[ 2016-03-17T19:45:18+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+ERR: Think\Model:get方法不存在！
+
+[ 2016-03-17T19:45:58+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `category` WHERE ( parentid )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: obj /var/www/html/webframework/webframe/Admin/Controller/CateController.class.php 第 64 行.
+
+[ 2016-03-17T19:47:44+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( parentid )  [ RunTime:0.0002s ]
+
+[ 2016-03-17T19:51:36+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' )  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="3" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T19:52:11+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="3" ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T19:53:27+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="3" ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T19:54:38+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000178s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: INSERT INTO `category` (`cate_name`,`parentid`,`ishidden`) VALUES ('最顶级分类2','0','0') [ RunTime:0.0018s ]
+
+[ 2016-03-17T19:54:38+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="3" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T19:55:13+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T20:12:35+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T20:13:18+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T20:13:30+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: INSERT INTO `category` (`cate_name`,`parentid`,`ishidden`) VALUES ('孙子类1','2','0') [ RunTime:0.0016s ]
+
+[ 2016-03-17T20:13:31+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="5" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-03-17T20:13:49+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined index: ishidden /var/www/html/webframework/webframe/Admin/Controller/CateController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ishidden' cannot be null
+
+[ 2016-03-17T20:13:56+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: INSERT INTO `category` (`cate_name`,`parentid`,`ishidden`) VALUES ('2的孙子类1','3','0') [ RunTime:0.0014s ]
+
+[ 2016-03-17T20:13:57+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="5" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='3' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="6" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T20:14:28+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: INSERT INTO `category` (`cate_name`,`parentid`,`ishidden`) VALUES ('最顶级分类2子类1','4','0') [ RunTime:0.0014s ]
+
+[ 2016-03-17T20:14:28+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="5" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='3' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="6" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T20:24:16+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="5" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='3' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="6" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T20:25:53+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="5" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='3' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="6" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T20:27:24+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="5" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='3' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="6" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T20:34:15+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="5" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='3' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="6" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T20:34:47+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' )' at line 1
+
+[ 2016-03-17T20:37:13+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1 )' at line 1
+
+[ 2016-03-17T20:38:13+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: UPDATE `category` SET `cate_name`='最顶级分类1修改',`parentid`='0',`ishidden`='0' WHERE ( cate_id='1' ) [ RunTime:0.0018s ]
+
+[ 2016-03-17T20:38:13+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="5" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='3' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="6" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T20:38:25+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: UPDATE `category` SET `cate_name`='最顶级分类1修改',`parentid`='0',`ishidden`='1' WHERE ( cate_id='1' ) [ RunTime:0.0015s ]
+
+[ 2016-03-17T20:38:26+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T20:38:41+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T20:38:43+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T20:39:09+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="5" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='3' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="6" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-03-17T20:39:16+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: UPDATE `category` SET `cate_name`='最顶级分类1修改',`parentid`='0',`ishidden`='1' WHERE ( cate_id='1' ) [ RunTime:0.0017s ]
+
+[ 2016-03-17T20:39:16+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T20:39:31+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T20:47:49+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T20:48:00+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="5" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='3' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="6" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T20:48:06+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid='6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: DELETE FROM `category` WHERE ( cate_id='6' ) [ RunTime:0.0012s ]
+
+[ 2016-03-17T20:48:06+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="5" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T20:48:10+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-03-17T20:48:58+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="5" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T20:49:01+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid='2' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-17T20:49:01+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="5" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T20:49:08+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000135s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid='3' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: DELETE FROM `category` WHERE ( cate_id='3' ) [ RunTime:0.0014s ]
+
+[ 2016-03-17T20:49:08+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="5" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T20:49:44+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: INSERT INTO `category` (`cate_name`,`parentid`,`ishidden`) VALUES ('最顶级分类3','0','0') [ RunTime:0.0017s ]
+
+[ 2016-03-17T20:49:44+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="5" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="8" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T20:50:00+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: INSERT INTO `category` (`cate_name`,`parentid`,`ishidden`) VALUES ('最顶级分类3子类1','8','0') [ RunTime:0.0016s ]
+
+[ 2016-03-17T20:50:00+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="5" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="8" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='8' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="9" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T20:50:37+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="5" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="8" and ishidden=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='8' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="9" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T20:50:54+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: INSERT INTO `category` (`cate_name`,`parentid`,`ishidden`) VALUES ('3孙子类1','9','0') [ RunTime:0.0108s ]
+
+[ 2016-03-17T20:50:54+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="5" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="8" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='8' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="9" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='9' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="10" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T21:10:06+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T21:10:11+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T21:10:38+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0011s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='4' and parentid='11' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0008s ]
+SQL: INSERT INTO `menu` (`parentid`,`menu_name`,`menu_url`,`sort`,`ishidden`) VALUES ('11','组织机构管理','Org/index','4','0') [ RunTime:0.0016s ]
+
+[ 2016-03-17T21:10:38+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000190s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T21:11:01+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T21:11:03+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T21:11:10+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`sort` FROM `menu` WHERE ( sort='2' and parentid='11' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0009s ]
+SQL: UPDATE `menu` SET `menu_id`='13',`menu_name`='类别管理',`parentid`='11',`menu_url`='cate/index',`sort`='2',`ishidden`='0' WHERE ( menu_id='13' ) [ RunTime:0.0016s ]
+
+[ 2016-03-17T21:11:10+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/childAjaxIndex?limit=15&offset=0&sort=id&order=desc&menu_id=11&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0007s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid='11' ) ORDER BY sort asc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: parentid /var/www/html/webframework/webframe/Admin/Controller/MenuController.class.php 第 132 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` WHERE ( parentid='' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-03-17T21:11:21+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/index
+ERR: 无法加载控制器:Org
+
+[ 2016-03-17T21:11:23+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T21:11:58+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/index
+ERR: 无法加载控制器:Org
+
+[ 2016-03-17T21:29:37+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/getOrgTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+ERR: 非法操作:getOrgTree
+
+[ 2016-03-17T21:29:54+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0007s ]
+SQL: INSERT INTO `organization` (`parentid`,`ishidden`) VALUES ('0','0') [ RunTime:0.0018s ]
+
+[ 2016-03-17T21:29:54+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/getOrgTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+ERR: 非法操作:getOrgTree
+
+[ 2016-03-17T21:31:42+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0006s ]
+SQL: INSERT INTO `organization` (`org_name`,`parentid`,`ishidden`) VALUES ('教务处','0','0') [ RunTime:0.0014s ]
+
+[ 2016-03-17T21:31:42+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/getOrgTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000120s ]
+ERR: 非法操作:getOrgTree
+
+[ 2016-03-17T21:33:00+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/getOrgTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+ERR: 非法操作:getOrgTree
+
+[ 2016-03-17T21:33:06+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/getOrgTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+ERR: 非法操作:getOrgTree
+
+[ 2016-03-17T21:33:38+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/getOrgTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T21:38:02+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/getOrgTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T21:38:57+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/getOrgTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T21:39:07+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0007s ]
+SQL: INSERT INTO `organization` (`org_name`,`parentid`,`ishidden`) VALUES ('组织部','1','0') [ RunTime:0.0015s ]
+
+[ 2016-03-17T21:39:08+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/getOrgTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T21:39:22+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0007s ]
+SQL: INSERT INTO `organization` (`org_name`,`parentid`,`ishidden`) VALUES ('信息工程学院','2','0') [ RunTime:0.0015s ]
+
+[ 2016-03-17T21:39:22+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/getOrgTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T21:44:07+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/getOrgTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T21:44:25+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: org_id /var/www/html/webframework/webframe/Admin/Controller/OrgController.class.php 第 115 行.
+
+[ 2016-03-17T21:45:10+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/getOrgTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T21:45:22+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0007s ]
+SQL: UPDATE `organization` SET `org_name`='信息工程学院修改',`parentid`='2',`ishidden`='0' WHERE ( org_id='4' ) [ RunTime:0.0016s ]
+
+[ 2016-03-17T21:45:22+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/getOrgTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T21:45:28+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0006s ]
+SQL: UPDATE `organization` SET `org_name`='信息工程学院修改',`parentid`='2',`ishidden`='1' WHERE ( org_id='4' ) [ RunTime:0.0015s ]
+
+[ 2016-03-17T21:45:28+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/getOrgTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T21:47:41+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/getOrgTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T21:47:46+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid='4' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-03-17T21:48:14+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/getOrgTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T21:48:17+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid='4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0007s ]
+SQL: DELETE FROM `organization` WHERE ( org_id='4' ) [ RunTime:0.0018s ]
+
+[ 2016-03-17T21:48:17+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/getOrgTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T21:48:21+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid='1' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-03-17T21:48:21+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/getOrgTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T21:49:10+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0007s ]
+SQL: INSERT INTO `organization` (`org_name`,`parentid`,`ishidden`) VALUES ('董事会','0','0') [ RunTime:0.0016s ]
+
+[ 2016-03-17T21:49:11+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/getOrgTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="5" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T21:49:22+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0006s ]
+SQL: INSERT INTO `organization` (`org_name`,`parentid`,`ishidden`) VALUES ('总经理室','5','0') [ RunTime:0.0201s ]
+
+[ 2016-03-17T21:49:22+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/getOrgTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="5" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='5' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="6" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T21:49:33+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0007s ]
+SQL: INSERT INTO `organization` (`org_name`,`parentid`,`ishidden`) VALUES ('秘书部','6','0') [ RunTime:0.0015s ]
+
+[ 2016-03-17T21:49:34+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Org/getOrgTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `organization` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="3" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="5" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='5' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="6" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `organization` WHERE ( parentid='6' and ishidden=0 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `organization` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-17T21:56:06+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0009s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T21:56:09+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T21:56:09+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T21:56:10+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T21:56:10+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0006s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T21:56:10+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0007s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T21:56:10+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T21:56:10+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0013s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0001s ]
+
+[ 2016-03-17T21:56:10+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/getrole
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0008s ]
+SQL: SELECT `role_id`,`role_name` FROM `role`  [ RunTime:0.0003s ]
+
+[ 2016-03-17T22:09:25+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Role/ajaxIndex?limit=15&offset=0&sort=role_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `role` [ RunTime:0.0009s ]
+SQL: SELECT `role_id`,`role_name`,`role_desc` FROM `role` ORDER BY role_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `role` LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T22:13:14+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Menu/ajaxIndex?limit=15&offset=0&sort=id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.0010s ]
+SQL: SELECT `menu_id`,`menu_name`,`parentid`,`menu_url`,`sort`,`ishidden` FROM `menu` WHERE ( parentid=0 ) ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `menu` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-03-17T22:13:17+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Cate/getCateTree
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='0' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="1" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='1' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="2" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='2' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="5" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="4" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='4' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="7" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="8" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='8' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="9" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `category` WHERE ( parentid='9' and ishidden=0 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` WHERE ( parentid="10" and ishidden=0 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-03-17T22:13:19+08:00 ] 10.16.189.153 /html/webframework/webframe/index.php/Admin/Workflow/ajaxIndex?limit=15&offset=0&sort=workflow_id&order=desc&UserName=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `workflow` [ RunTime:0.0008s ]
+SQL: SELECT `workflow_id`,`workflow_name`,`workflow_desc`,`steps` FROM `workflow` ORDER BY workflow_id desc LIMIT 0,15   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `workflow` LIMIT 1   [ RunTime:0.0001s ]
+

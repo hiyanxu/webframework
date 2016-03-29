@@ -1,0 +1,1 @@
+a:6:{i:0;s:11:"workflow_id";i:1;s:13:"workflow_name";i:2;s:13:"workflow_desc";i:3;s:5:"steps";s:3:"_pk";s:11:"workflow_id";s:5:"_type";a:4:{s:11:"workflow_id";s:7:"int(11)";s:13:"workflow_name";s:11:"varchar(50)";s:13:"workflow_desc";s:4:"text";s:5:"steps";s:7:"int(11)";}}
