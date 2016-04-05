@@ -1,1 +1,0 @@
-a:5:{i:0;s:16:"news_workflow_ud";i:1;s:11:"workflow_id";i:2;s:8:"isenable";s:3:"_pk";s:16:"news_workflow_ud";s:5:"_type";a:3:{s:16:"news_workflow_ud";s:7:"int(11)";s:11:"workflow_id";s:7:"int(11)";s:8:"isenable";s:10:"tinyint(4)";}}

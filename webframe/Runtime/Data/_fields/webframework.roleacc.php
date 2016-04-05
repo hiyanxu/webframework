@@ -1,1 +1,0 @@
-a:5:{i:0;s:14:"role_access_id";i:1;s:7:"role_id";i:2;s:9:"access_id";s:3:"_pk";s:14:"role_access_id";s:5:"_type";a:3:{s:14:"role_access_id";s:7:"int(11)";s:7:"role_id";s:7:"int(11)";s:9:"access_id";s:7:"int(11)";}}

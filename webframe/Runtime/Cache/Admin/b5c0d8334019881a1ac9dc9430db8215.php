@@ -36,7 +36,7 @@
 		$('#table').bootstrapTable({
 					classes: "table table-hover", //表的样式'table-no-bordered'无边宽，也可以自己加样式
 					method: 'get',
-					url: "/html/webframework/webframe/index.php/Admin/User/ajaxIndex",
+					url: "/webframework/webframe/index.php/Admin/User/ajaxIndex",
 					//cache: false,
 					height: $(window).height(),
 					striped: true, //是否显示条纹的行。
@@ -169,7 +169,7 @@
 						//closeBtn:2,
 						// time:1000,  设置自动关闭窗口时间 1秒=1000；
 						shift: 0, //打开效果：0-6 。0放大，1从上到下，2下到上，3左到右放大，4翻滚效果；5渐变；6抖窗口
-						content: ['/html/webframework/webframe/index.php/Admin/User/add/isAdmin/0', 'yes'],
+						content: ['/webframework/webframe/index.php/Admin/User/add/isAdmin/0', 'yes'],
 						btn: ['确定', '取消']
 						, yes: function (index) {
 
@@ -215,7 +215,7 @@
 						}
 								$.ajax({
 									type: 'post',
-									url: '/html/webframework/webframe/index.php/Admin/User/insert',
+									url: '/webframework/webframe/index.php/Admin/User/insert',
 									data: obj.serialize(),
 									cache: false,
 									success: function (data) {
@@ -263,7 +263,7 @@
 						//closeBtn:2,
 						// time:1000,  设置自动关闭窗口时间 1秒=1000；
 						shift: 0, //打开效果：0-6 。0放大，1从上到下，2下到上，3左到右放大，4翻滚效果；5渐变；6抖窗口
-						content: ['/html/webframework/webframe/index.php/Admin/User/edit/isAdmin/0/user_id/'+user_id+'/user_account_id/'+user_account_id, 'yes'],
+						content: ['/webframework/webframe/index.php/Admin/User/edit/isAdmin/0/user_id/'+user_id+'/user_account_id/'+user_account_id, 'yes'],
 						btn: ['确定', '取消']
 						, yes: function (index) {
 
@@ -309,7 +309,7 @@
 						}
 								$.ajax({
 									type: 'post',
-									url: '/html/webframework/webframe/index.php/Admin/User/update',
+									url: '/webframework/webframe/index.php/Admin/User/update',
 									data: obj.serialize(),
 									cache: false,
 									success: function (data) {
@@ -348,7 +348,7 @@
 			layer.confirm('确定要删除吗？', {
 					btn: ['确定', '取消'],
 				}, function (index, layero) {					
-					var actionUrl = "/html/webframework/webframe/index.php/Admin/User/del";
+					var actionUrl = "/webframework/webframe/index.php/Admin/User/del";
 						$.ajax({
 						type: 'post',
 								url: actionUrl,
@@ -385,7 +385,7 @@
 						//closeBtn:2,
 						// time:1000,  设置自动关闭窗口时间 1秒=1000；
 						shift: 0, //打开效果：0-6 。0放大，1从上到下，2下到上，3左到右放大，4翻滚效果；5渐变；6抖窗口
-						content: ['/html/webframework/webframe/index.php/Admin/User/editPwd/user_account_id/'+user_account_id, 'no'],
+						content: ['/webframework/webframe/index.php/Admin/User/editPwd/user_account_id/'+user_account_id, 'no'],
 						btn: ['确定', '取消']
 						, yes: function (index) {
 
@@ -401,7 +401,7 @@
 						}
 								$.ajax({
 									type: 'post',
-									url: '/html/webframework/webframe/index.php/Admin/User/editPwdSave',
+									url: '/webframework/webframe/index.php/Admin/User/editPwdSave',
 									data: obj.serialize(),
 									cache: false,
 									success: function (data) {

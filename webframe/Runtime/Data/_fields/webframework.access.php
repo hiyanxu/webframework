@@ -1,1 +1,0 @@
-a:6:{i:0;s:9:"access_id";i:1;s:11:"access_name";i:2;s:10:"access_url";i:3;s:6:"remark";s:3:"_pk";s:9:"access_id";s:5:"_type";a:4:{s:9:"access_id";s:7:"int(11)";s:11:"access_name";s:11:"varchar(50)";s:10:"access_url";s:12:"varchar(100)";s:6:"remark";s:4:"text";}}

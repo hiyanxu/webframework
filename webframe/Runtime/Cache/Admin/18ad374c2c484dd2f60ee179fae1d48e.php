@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="renderer" content="webkit">
-        <title>信息添加</title>
+        <title>新闻信息修改</title>
         <link rel="stylesheet" type="text/css" href="<?php echo (WWW_PUB); ?>/Public/Admin/BootStrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="<?php echo (WWW_PUB); ?>Public/Admin/BootStrap/css/bootstrap-table.min.css">
         <!--js文件引入-->
@@ -38,24 +38,24 @@
         <div>
             <div class="modal-body">
                 <form id="wt-forms" method="post" tabindex="-1" onsubmit="return false;" class="form-horizontal">
-                    <input type="hidden" value="0" name="parentid">
+                    <input type="hidden" value="<?php echo ($news_id); ?>" name="news_id">
                     <div class="form-group">
                         <label class="col-xs-3 control-label">信息名称：</label>
                         <div class="col-xs-8">
-                            <input type="text" id="news_name" name="news_name" placeholder="请给出信息名称" class="form-control input-sm"> 
+                            <input type="text" id="news_name" name="news_name" value="<?php echo ($row[0]['news_name']); ?>" placeholder="请给出信息名称" class="form-control input-sm"> 
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-xs-3 control-label">信息时间：</label>
                         <div class="col-xs-8">
-                            <input type="text" id="news_time" name="news_time" onclick="WdatePicker()" placeholder="请单击" class="form-control input-sm"> 
+                            <input type="text" id="news_time" name="news_time" value="<?php echo ($row[0]['news_time']); ?>" onclick="WdatePicker()" placeholder="请单击" class="form-control input-sm"> 
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-xs-3 control-label">信息类别：</label>
                         <div class="col-xs-8">
                             <select name="news_cate_id">
-                                <?php if(is_array($cate_rows)): foreach($cate_rows as $k=>$cate_row): ?><option value="<?php echo ($k); ?>"><?php echo ($cate_row); ?></option><?php endforeach; endif; ?>
+                                <?php if(is_array($cate_rows)): foreach($cate_rows as $k=>$cate_row): ?><option value="<?php echo ($k); ?>" <?php if($row[0]['news_cate_id'] == $k): ?>selected="selected"<?php endif; ?> ><?php echo ($cate_row); ?></option><?php endforeach; endif; ?>
                             </select>
                         </div>
                     </div>
@@ -63,7 +63,7 @@
                         <label class="col-xs-3 control-label">机构选择：</label>
                         <div class="col-xs-8">
                             <select name="news_org_id">
-                                <?php if(is_array($org_rows)): foreach($org_rows as $k=>$org_row): ?><option value="<?php echo ($k); ?>"><?php echo ($org_row); ?></option><?php endforeach; endif; ?>
+                                <?php if(is_array($org_rows)): foreach($org_rows as $k=>$org_row): ?><option value="<?php echo ($k); ?>" <?php if($row[0]['news_org_id'] == $k): ?>selected="selected"<?php endif; ?>  ><?php echo ($org_row); ?></option><?php endforeach; endif; ?>
                             </select>
                         </div>
                     </div>
@@ -71,7 +71,7 @@
                     <div class="form-group">
                         <label class="col-xs-3 control-label">信息内容：</label>
                         <div class="col-xs-8">
-                            <textarea name="news_content" id="news_content" plcaeholder="请给出内容"></textarea>
+                            <textarea name="news_content" id="news_content" plcaeholder="请给出内容"><?php echo ($row[0]['news_content']); ?></textarea>
                         </div>
                     </div>
                     

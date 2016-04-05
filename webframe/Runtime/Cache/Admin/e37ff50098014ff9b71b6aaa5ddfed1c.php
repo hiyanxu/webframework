@@ -32,7 +32,7 @@
 		$('#table').bootstrapTable({
 					classes: "table table-hover", //表的样式'table-no-bordered'无边宽，也可以自己加样式
 					method: 'get',
-					url: "/html/webframework/webframe/index.php/Admin/News/newsCateAjaxIndex",
+					url: "/webframework/webframe/index.php/Admin/News/newsCateAjaxIndex",
 					//cache: false,
 					height: $(window).height(),
 					striped: true, //是否显示条纹的行。
@@ -147,7 +147,7 @@
 						//closeBtn:2,
 						// time:1000,  设置自动关闭窗口时间 1秒=1000；
 						shift: 0, //打开效果：0-6 。0放大，1从上到下，2下到上，3左到右放大，4翻滚效果；5渐变；6抖窗口
-						content: ['/html/webframework/webframe/index.php/Admin/News/cateSelect', 'no'],
+						content: ['/webframework/webframe/index.php/Admin/News/cateSelect', 'no'],
 						btn: ['确定', '取消']
 						, yes: function (index) {
 
@@ -163,7 +163,7 @@
 						}
 								$.ajax({
 									type: 'post',
-									url: '/html/webframework/webframe/index.php/Admin/News/cateSelectInsert',
+									url: '/webframework/webframe/index.php/Admin/News/cateSelectInsert',
 									data: obj.serialize(),
 									cache: false,
 									success: function (data) {
@@ -202,7 +202,7 @@
 			$.ajax({
 				type:"post",
 				data:{id:id,flag:flag},
-				url:"/html/webframework/webframe/index.php/Admin/News/setNewsCateIsEnable",
+				url:"/webframework/webframe/index.php/Admin/News/setNewsCateIsEnable",
 				success:function(data){
 					if (data.status) {
 											layer.msg("设置成功", {
@@ -233,7 +233,7 @@
 					btn: ['确定', '取消'],
 				}, function (index, layero) {				
 
-					var actionUrl = "/html/webframework/webframe/index.php/Admin/News/newsCatedel";
+					var actionUrl = "/webframework/webframe/index.php/Admin/News/newsCatedel";
 						$.ajax({
 						type: 'post',
 								url: actionUrl,

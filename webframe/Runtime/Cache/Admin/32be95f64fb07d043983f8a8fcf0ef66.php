@@ -67,7 +67,7 @@
 
 											<div class="space-6"></div>
 
-                                                                                        <form method="post" action="/html/webframework/webframe/index.php/Admin/Login/login">
+                                                                                        <form method="post" action="/webframework/webframe/index.php/Admin/Login/login">
 												<fieldset>
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">

@@ -121,7 +121,7 @@
 	                            <span class="pull-right glyphicon glyphicon-chevron-down"></span>
 	                        </a>
 	                        <ul id="<?php echo ($toprows['menu_id']); ?>" class="nav nav-list collapse secondmenu" style="height: 0px;">
-	                        	<?php if(is_array($menu_second_rows)): foreach($menu_second_rows as $key=>$secondrows): if($secondrows['parentid'] == $toprows['menu_id']): ?><li><a target="right" href="/html/webframework/webframe/index.php/Admin/<?php echo ($secondrows['menu_url']); ?>" style="font-size:12px;"><i class="glyphicon glyphicon-file"></i><?php echo ($secondrows["menu_name"]); ?></a></li><?php endif; endforeach; endif; ?>	                            
+	                        	<?php if(is_array($menu_second_rows)): foreach($menu_second_rows as $key=>$secondrows): if($secondrows['parentid'] == $toprows['menu_id']): ?><li><a target="right" href="/webframework/webframe/index.php/Admin/<?php echo ($secondrows['menu_url']); ?>" style="font-size:12px;"><i class="glyphicon glyphicon-file"></i><?php echo ($secondrows["menu_name"]); ?></a></li><?php endif; endforeach; endif; ?>	                            
 	                        </ul>
 	                    </li><?php endforeach; endif; ?>
                     

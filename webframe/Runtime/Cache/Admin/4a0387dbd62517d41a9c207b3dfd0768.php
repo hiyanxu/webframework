@@ -48,7 +48,7 @@
             
             $.ajax({
                 type:"post",
-                url:"/html/webframework/webframe/index.php/Admin/Workflow/getrole",
+                url:"/webframework/webframe/index.php/Admin/Workflow/getrole",
                 cache:false,
                 dataType: "json",
                 success:function(data){

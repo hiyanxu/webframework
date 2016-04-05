@@ -20,6 +20,21 @@
 				<div id="headshow" >
 					<button type="button" class="btn btn-success btn-sm" onclick="add();"><span class="glyphicon glyphicon-plus"></span>添加信息</button>
 					<button type="button" class="btn btn-danger btn-sm" onclick="delmore(null)"><span class="glyphicon glyphicon-trash"></span>批量删除</button>
+					&nbsp;审核状态：
+					<select id="ex_status" name="ex_status">
+						<option value="">全部</option>
+						<option value="0">未提交审核</option>
+						<option value="1">正在审核中</option>
+						<option value="2">审核未通过</option>
+						<option value="3">审核通过</option>
+					</select>
+					&nbsp;&nbsp;组织机构：
+					<select id="news_org_id" name="news_org_id">
+						<option value="">全部</option>
+						<foreach name="org_rows" item="org_row">						
+							<option value="{$org_row['org_id']}">{$org_row['org_name']}</option>
+						</foreach>
+					</select>
 					
 				</div>
 				<div id="divTable">
@@ -62,7 +77,6 @@
 					}, {
 						field: 'news_id',
 						title: 'ID',
-						width: 100, //宽度
 						align: 'center', //
 						valign: 'middle',
 						sortable: true  //是否排序
@@ -118,17 +132,27 @@
 
 		function handle(value, row, index) {
 				console.log(row);
-				var btnIsEnable='';
-				if(row.isenable=="0"){
-					btnIsEnable='&nbsp;&nbsp;<a class="remove ml10 btn btn-xs btn-outline btn-default" href="javascript:void(0)" onclick="setNewsWorkflow('+row.news_workflow_id+',1)" title="设为禁用"><i class="glyphicon glyphicon-remove-circle"></i></a>';
+				var btnEdit='';
+				var btnSendEx="";
+				var btnEx="";
+				var btnDel="";
+				if(row.isNeedSendEx=="ok"){					
+					btnSendEx='&nbsp;<a class="remove ml10 btn btn-xs btn-outline btn-default" href="javascript:void(0)" onclick="sendEx('+row.news_id+')" title="送审"><i class="glyphicon glyphicon-share"></i></a>';
 				}
-				else{
-					btnIsEnable='&nbsp;&nbsp;<a class="remove ml10 btn btn-xs btn-outline btn-default" href="javascript:void(0)" onclick="setNewsWorkflow('+row.news_workflow_id+',0)" title="设为启用"><i class="glyphicon glyphicon-off"></i></a>';
+				if(row.isNeedEx=="ok"){
+					btnEx='&nbsp;<a class="remove ml10 btn btn-xs btn-outline btn-default" href="javascript:void(0)" onclick="examine('+row.news_id+')" title="审核"><i class="glyphicon glyphicon-check"></i></a>';
 				}
+				if(row.isNeedEdit=="ok"){
+					btnEdit='<a class="remove ml10 btn btn-xs btn-outline btn-default" href="javascript:void(0)" onclick="edit('+row.news_id+')" title="修改"><i class="glyphicon glyphicon-pencil"></i></a>';
+				}
+				if(row.isDel=="ok"){
+					btnDel='&nbsp;<a class="remove ml10 btn btn-xs btn-outline btn-default" href="javascript:void(0)" onclick="delmore('+row.news_id+')" title="删除"><i class="glyphicon glyphicon-trash"></i>',
+						'</a>'
+				}
+
 				return [
-						'<a class="remove ml10 btn btn-xs btn-outline btn-default" href="javascript:void(0)" onclick="delmore('+row.news_workflow_id+')" title="删除">',
-						'<i class="glyphicon glyphicon-trash"></i>',
-						'</a>'+btnIsEnable
+						btnEdit+btnSendEx+btnDel+btnEx
+						
 						
 				].join('');
 			}
@@ -152,8 +176,14 @@
 			function queryParams(params) {
 
 				if (typeof (params.sort) == "undefined") {
-					params.sort = 'news_wf.news_workflow_id'; //默认排序字段
+					params.sort = 'news.news_id'; //默认排序字段
 					params.order = 'desc';
+				}
+				if(typeof(params.ex_status=="undefined")){
+					params.ex_status=$("#ex_status").val();
+				}
+				if(typeof(params.news_org_id=="undefined")){
+					params.news_org_id=$("#news_org_id").val();
 				}
 
 				params.UserName = 4;
@@ -227,6 +257,223 @@
 						}
 				});
 		}
+
+		/*
+		修改操作
+		*/
+		function edit(news_id){
+			var index = layer.open({
+						type: 2,
+						skin: 'demo-class',
+						title: ['信息修改', 'font-size:14px;background:#2b9af6;color:#fff'],
+						move: '.layui-layer-title', //触发拖动的元素false 禁止拖拽，.layui-layer-title 可以拖拽
+						area: ['100%', '100%'], //设置弹出框的宽高
+						shade: [0.5, '#000'], //配置遮罩层颜色和透明度
+						shadeClose: true, //是否允许点击遮罩层关闭弹窗 true /false
+						//closeBtn:2,
+						// time:1000,  设置自动关闭窗口时间 1秒=1000；
+						shift: 0, //打开效果：0-6 。0放大，1从上到下，2下到上，3左到右放大，4翻滚效果；5渐变；6抖窗口
+						content: ['__URL__/edit/news_id/'+news_id, 'yes'],
+						btn: ['确定', '取消']
+						, yes: function (index) {
+
+						var obj = layer.getChildFrame('#wt-forms', index); //获取form的值
+						var news_name=obj.find("#news_name").val();
+						var news_time=obj.find("#news_time").val();
+						if(news_name==""||news_time==""){
+							layer.msg("请将信息填写完整", {
+											icon: 2,
+												time: 1000,
+												skin: 'layer-ext-moon'
+											});
+							return;
+						}
+								$.ajax({
+									type: 'post',
+									url: '__URL__/update',
+									data: obj.serialize(),
+									cache: false,
+									success: function (data) {
+										if (data.status) {
+											layer.msg(data.msg, {
+											icon: 1,
+													time: 1000,
+													skin: 'layer-ext-moon'
+											});
+											$('#table').bootstrapTable('refresh', ''); //刷新表格
+										} else {
+											layer.msg(data.msg, {
+											icon: 2,
+												time: 1000,
+												skin: 'layer-ext-moon'
+											});
+										}
+									},
+									error: function (data) {
+
+									}
+								});
+								//console.log(obj.serialize());
+								layer.close(index); //一般设定yes回调，必须进行手工关闭
+
+						}, cancel: function (index) {
+
+						}
+				});
+		}
+
+		/*
+		送审操作
+		*/
+		function sendEx(news_id){
+			$.ajax({
+				type:"post",
+				data:{news_id:news_id},
+				url:"__URL__/sendEx",
+				success:function(data){
+					if (data.status) {
+											layer.msg(data.msg, {
+											icon: 1,
+													time: 1000,
+													skin: 'layer-ext-moon'
+											});
+											$('#table').bootstrapTable('refresh', ''); //刷新表格
+										} else {
+											layer.msg(data.msg, {
+											icon: 3,
+												time: 1000,
+												skin: 'layer-ext-moon'
+											});
+										}
+				},
+				error:function(data){
+					layer.alert("网络通信错误");
+				}
+			});
+		}
+
+		/*
+		审核操作
+		*/
+		function examine(news_id){
+			var index = layer.open({
+						type: 2,
+						skin: 'demo-class',
+						title: ['信息审核', 'font-size:14px;background:#2b9af6;color:#fff'],
+						move: '.layui-layer-title', //触发拖动的元素false 禁止拖拽，.layui-layer-title 可以拖拽
+						area: ['100%', '100%'], //设置弹出框的宽高
+						shade: [0.5, '#000'], //配置遮罩层颜色和透明度
+						shadeClose: true, //是否允许点击遮罩层关闭弹窗 true /false
+						//closeBtn:2,
+						// time:1000,  设置自动关闭窗口时间 1秒=1000；
+						shift: 0, //打开效果：0-6 。0放大，1从上到下，2下到上，3左到右放大，4翻滚效果；5渐变；6抖窗口
+						content: ['__URL__/getExamine/news_id/'+news_id, 'yes'],
+						btn: ['确定', '取消']
+						, yes: function (index) {
+
+						var obj = layer.getChildFrame('#wt-forms', index); //获取form的值
+						var news_name=obj.find("#news_name").val();
+						var news_time=obj.find("#news_time").val();
+						if(news_name==""||news_time==""){
+							layer.msg("请将信息填写完整", {
+											icon: 2,
+												time: 1000,
+												skin: 'layer-ext-moon'
+											});
+							return;
+						}
+								$.ajax({
+									type: 'post',
+									url: '__URL__/examine',
+									data: obj.serialize(),
+									cache: false,
+									success: function (data) {
+										if (data.status) {
+											layer.msg(data.msg, {
+											icon: 1,
+													time: 1000,
+													skin: 'layer-ext-moon'
+											});
+											$('#table').bootstrapTable('refresh', ''); //刷新表格
+										} else {
+											layer.msg(data.msg, {
+											icon: 2,
+												time: 1000,
+												skin: 'layer-ext-moon'
+											});
+										}
+									},
+									error: function (data) {
+
+									}
+								});
+								//console.log(obj.serialize());
+								layer.close(index); //一般设定yes回调，必须进行手工关闭
+
+						}, cancel: function (index) {
+
+						}
+				});
+		}
+
+		/*
+		数据删除的方法  包括批量删除
+		*/
+		function delmore(news_id){
+			layer.confirm('确定要删除吗？', {
+					btn: ['确定', '取消'],
+				}, function (index, layero) {
+					if (!news_id) {
+						var obj = $('#table').bootstrapTable('getSelections');
+						var ids = '';
+						$.each(obj, function (n, value) {
+							ids += value.news_id + ',';
+						});
+					} else {
+						var ids = news_id + ',';
+					}
+
+					var actionUrl = "__URL__/del";
+						$.ajax({
+						type: 'post',
+								url: actionUrl,
+								data: {ids:ids},
+								cache: false,
+								success: function (data) {
+									if (data.status) {
+											layer.msg(data.msg, {
+											icon: 1,
+													time: 1000,
+													skin: 'layer-ext-moon'
+											});
+											$('#table').bootstrapTable('refresh', ''); //刷新表格
+										} else {
+											layer.msg(data.msg, {
+											icon: 3,
+												time: 1000,
+												skin: 'layer-ext-moon'
+											});
+										}
+								},
+								error: function (data) {
+								layer.alert(index);
+								}
+						});
+				}, function (index) {
+
+				});
+		}
+
+		$(function(){
+			$("#ex_status").change(function(){
+				$('#table').bootstrapTable('refresh', ''); //刷新表格
+			});
+			$("#news_org_id").change(function(){
+				$('#table').bootstrapTable('refresh', ''); //刷新表格
+			});
+		});
+
+
 		</script>
 
 

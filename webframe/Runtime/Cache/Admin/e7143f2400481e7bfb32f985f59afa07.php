@@ -30,7 +30,7 @@
 	$('#table').bootstrapTable({
 					classes: "table table-hover", //表的样式'table-no-bordered'无边宽，也可以自己加样式
 					method: 'get',
-					url: "/html/webframework/webframe/index.php/Admin/Role/ajaxIndex",
+					url: "/webframework/webframe/index.php/Admin/Role/ajaxIndex",
 					//cache: false,
 					height: $(window).height(),
 					striped: true, //是否显示条纹的行。
@@ -153,13 +153,13 @@
 						//closeBtn:2,
 						// time:1000,  设置自动关闭窗口时间 1秒=1000；
 						shift: 3, //打开效果：0-6 。0放大，1从上到下，2下到上，3左到右放大，4翻滚效果；5渐变；6抖窗口
-						content: ['/html/webframework/webframe/index.php/Admin/Role/add', 'no'],
+						content: ['/webframework/webframe/index.php/Admin/Role/add', 'no'],
 						btn: ['确定', '取消']
 						, yes: function (index) {
 						var obj = layer.getChildFrame('#wt-forms', index); //获取form的值
 								$.ajax({
 									type: 'post',
-									url: '/html/webframework/webframe/index.php/Admin/Role/insert',
+									url: '/webframework/webframe/index.php/Admin/Role/insert',
 									data: obj.serialize(),
 									cache: false,
 									success: function (data) {
@@ -206,14 +206,14 @@
 						//closeBtn:2,
 						// time:1000,  设置自动关闭窗口时间 1秒=1000；
 						shift: 0, //打开效果：0-6 。0放大，1从上到下，2下到上，3左到右放大，4翻滚效果；5渐变；6抖窗口
-						content: ['/html/webframework/webframe/index.php/Admin/Role/edit/role_id/'+role_id, 'no'],
+						content: ['/webframework/webframe/index.php/Admin/Role/edit/role_id/'+role_id, 'no'],
 						btn: ['确定', '取消']
 						, yes: function (index) {
 
 						var obj = layer.getChildFrame('#wt-forms', index); //获取form的值
 								$.ajax({
 									type: 'post',
-									url: '/html/webframework/webframe/index.php/Admin/Role/update',
+									url: '/webframework/webframe/index.php/Admin/Role/update',
 									data: obj.serialize(),
 									cache: false,
 									success: function (data) {
@@ -262,7 +262,7 @@
 						var ids = role_id + ',';
 					}
 
-					var actionUrl = "/html/webframework/webframe/index.php/Admin/Role/del";
+					var actionUrl = "/webframework/webframe/index.php/Admin/Role/del";
 						$.ajax({
 						type: 'post',
 								url: actionUrl,
@@ -299,13 +299,13 @@
 						//closeBtn:2,
 						// time:1000,  设置自动关闭窗口时间 1秒=1000；
 						shift: 3, //打开效果：0-6 。0放大，1从上到下，2下到上，3左到右放大，4翻滚效果；5渐变；6抖窗口
-						content: ['/html/webframework/webframe/index.php/Admin/Role/accessDis/role_id/'+role_id, 'no'],
+						content: ['/webframework/webframe/index.php/Admin/Role/accessDis/role_id/'+role_id, 'no'],
 						btn: ['确定', '取消']
 						, yes: function (index) {
 						var obj = layer.getChildFrame('#wt-forms', index); //获取form的值
 								$.ajax({
 									type: 'post',
-									url: '/html/webframework/webframe/index.php/Admin/Role/accessDisInsert',
+									url: '/webframework/webframe/index.php/Admin/Role/accessDisInsert',
 									data: obj.serialize(),
 									cache: false,
 									success: function (data) {
@@ -341,7 +341,7 @@
 	菜单分配操作
 	*/
 	function menuDis(role_id){
-		window.location.href="/html/webframework/webframe/index.php/Admin/Role/menuDis/role_id/"+role_id;
+		window.location.href="/webframework/webframe/index.php/Admin/Role/menuDis/role_id/"+role_id;
 	}
 
 
@@ -359,14 +359,14 @@
 						//closeBtn:2,
 						// time:1000,  设置自动关闭窗口时间 1秒=1000；
 						shift: 3, //打开效果：0-6 。0放大，1从上到下，2下到上，3左到右放大，4翻滚效果；5渐变；6抖窗口
-						content: ['/html/webframework/webframe/index.php/Admin/Role/menuDis/role_id/'+role_id, 'yes'],
+						content: ['/webframework/webframe/index.php/Admin/Role/menuDis/role_id/'+role_id, 'yes'],
 						btn: ['确定', '取消']
 						, yes: function (index) {
 						var obj = layer.getChildFrame('#wt-forms', index); //获取form的值
 						if(check(obj,true)){
 								$.ajax({
 									type: 'post',
-									url: '/html/webframework/webframe/index.php/Admin/Role/menuDisInsert',
+									url: '/webframework/webframe/index.php/Admin/Role/menuDisInsert',
 									data: obj.serialize()+"&menuString"+menuString,
 									cache: false,
 									success: function (data) {
