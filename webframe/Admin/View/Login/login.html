@@ -71,15 +71,15 @@
 												<fieldset>
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
-                                                                                                                    <input name="userName" type="text" class="form-control" placeholder="Username" />
-                                                                                                                        <span class="glyphicon glyphicon-user"></span>
+                                                       <input name="userName" type="text" class="form-control" placeholder="Username" />
+                                                       <span class="glyphicon glyphicon-user"></span>
 														</span>
 													</label>
 
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
-                                                                                                                    <input name="userPwd" type="password" class="form-control" placeholder="Password" />
-                                                                                                                        <span class="glyphicon glyphicon-lock"></span>
+                                                     <input name="userPwd" type="password" class="form-control" placeholder="Password" />
+                                                      <span class="glyphicon glyphicon-lock"></span>
 														</span>
 													</label>
 
@@ -87,11 +87,11 @@
 
 													<div class="clearfix">
 														<label class="inline">
-															<input type="checkbox" class="ace" />
+															<input type="checkbox" name="rememberMe"  />
 															<span class="lbl"> Remember Me</span>
 														</label>
 
-                                                                                                            <input type="submit" value="Login" class="width-35 pull-right btn btn-sm btn-primary">
+                                                       <input type="submit" value="Login" class="width-35 pull-right btn btn-sm btn-primary">
 														
 													</div>
 

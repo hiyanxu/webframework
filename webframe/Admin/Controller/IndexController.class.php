@@ -2,6 +2,7 @@
 namespace Admin\Controller;
 
 use Think\Controller;
+use Admin\Model\LoginLogModel;
 
 class IndexController extends AdminController{
 	/*
@@ -25,6 +26,7 @@ class IndexController extends AdminController{
 	首页显示
 	*/
 	public function index(){
+		//var_dump("haha");die();
 		$this->display("Login/index");
 	}
 
@@ -69,6 +71,35 @@ class IndexController extends AdminController{
 	public function getmenu($parentid=0){
 		$rows=M("menu")->where("parentid='".$parentid."' and ishidden=0")->field("menu_id,menu_name,parentid,menu_url")->order("sort asc")->select();
 		return $rows;
+	}
+
+	/*
+	系统登出的方法
+	*/
+	public function logout(){
+		$loginaccountid=session("loginaccount");
+		$login_account_row=M("user_account")->where("user_account_id='$loginaccountid'")->field("user_account")->select();
+		cookie("cookie_loginuser",null);
+		session('loginuser',null);
+		session('loginuserid',null);
+		session('loginuserroleid',null);
+		session('loginaccount',null);
+
+		$login_ip=$_SERVER['REMOTE_ADDR'];
+			$data=array(
+				"login_ip"=>$login_ip,
+				"login_account"=>$login_account_row[0]['user_account'],
+				"login_time"=>time(),
+				"login_operation"=>1,   //0:登录  1：登出
+				"login_status"=>0,  //1:表示当前登录失败  0:表示当前登录成功
+				"is_remember"=>1  //0：表示当前记住  1：表示当前不是记住我
+				);
+			$obj=new LoginLogModel();
+			$return=$obj->dataAdd($data);
+
+
+		$this->redirect("Login/showLogin");
+
 	}
 
 

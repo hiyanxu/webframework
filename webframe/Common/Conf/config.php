@@ -16,4 +16,6 @@ return array(
     
     //页面trace信息追踪     
     'SHOW_PAGE_TRACE' =>true, 
+
+    'VAR_SESSION_ID'      =>  'session_id',
 );
