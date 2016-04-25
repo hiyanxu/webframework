@@ -18,4 +18,11 @@ return array(
     'SHOW_PAGE_TRACE' =>true, 
 
     'VAR_SESSION_ID'      =>  'session_id',
+
+
+    /*'APP_SUB_DOMAIN_DEPLOY'   =>    1, // 开启子域名配置
+    'APP_SUB_DOMAIN_RULES'    =>    array(      
+        '42.96.149.81'  => 'Admin',  // admin.domain1.com域名指向Admin模块 
+    ),*/
+
 );

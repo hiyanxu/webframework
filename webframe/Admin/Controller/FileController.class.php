@@ -222,11 +222,11 @@ class FileController extends AdminController{
 			if(I("get.file_type")){
 				$file_type=I("get.file_type");
 				$data=M()->table(array("file"=>"file","user_account"=>"user_act"))
-					->where("file.create_by=user_act.user_account_id and file_type='$file_type'")->order($order)->limit(I("post.offset"),I("post.limit"))->select();
+					->where("file.create_by=user_act.user_account_id and file_type='$file_type'")->order($order)->limit(I("get.offset"),I("get.limit"))->select();
 				}
 			else{
 				$data=M()->table(array("file"=>"file","user_account"=>"user_act"))
-					->where("file.create_by=user_act.user_account_id")->order($order)->limit(I("post.offset"),I("post.limit"))->select();
+					->where("file.create_by=user_act.user_account_id")->order($order)->limit(I("get.offset"),I("get.limit"))->select();
 				}
 			}
 			
@@ -234,11 +234,11 @@ class FileController extends AdminController{
 			if(I("get.file_type")){
 				$file_type=I("get.file_type");
 				$data=M()->table(array("file"=>"file","user_account"=>"user_act"))
-					->where("file.create_by=user_act.user_account_id and file_type='$file_type'")->limit(I("post.offset"),I("post.limit"))->select();
+					->where("file.create_by=user_act.user_account_id and file_type='$file_type'")->limit(I("get.offset"),I("get.limit"))->select();
 				}
 			else{
 				$data=M()->table(array("file"=>"file","user_account"=>"user_act"))
-					->where("file.create_by=user_act.user_account_id")->limit(I("post.offset"),I("post.limit"))->select();
+					->where("file.create_by=user_act.user_account_id")->limit(I("get.offset"),I("get.limit"))->select();
 				}
 		}
 		$total_count=M()->table(array("file"=>"file","user_account"=>"user_act"))
@@ -249,6 +249,8 @@ class FileController extends AdminController{
 			$row=M("user_account")->field("user_account")->where("user_account_id='".$value['create_by']."'")->select();
 			$data[$key]["addUser"]=$row[0]['user_account'];
 			$data[$key]['is_effective_text']=$value['is_effective']==0?"<label style='color:#7EAEF5;'>有效</label>":"<label style='color:red;'>无效</label>";
+			$data[$key]['file_path']=str_replace("/var/www/html/webframework/webframe", "", $value['file_path']);
+			$data[$key]['download_path']=WWW_PUB.$data[$key]['file_path'];
 		}
 
 		$return=array(
@@ -256,6 +258,41 @@ class FileController extends AdminController{
 			"data"=>$data
 		);
 		$this->ajaxReturn($return,"JSON");
+	}
+
+	/*
+	删除操作
+	*/
+	public function del(){
+		$ids=I("post.ids");  //获取文件ids
+
+		$ids2=substr($ids, 0,-1);  //将最后的逗号去掉
+		$idsToArr=explode(",", $ids2);  //将字符串切割成数组
+
+		if(empty($idsToArr)){
+			$return=array(
+				"status"=>false,
+				"msg"=>"删除失败"
+				);
+			$this->ajaxReturn($return,"JSON");
+		}
+		else{
+			foreach ($idsToArr as $key => $value) {
+				# code...
+				$obj=new FileModel();
+				$return=$obj->del($value);
+			}
+		}
+		$this->ajaxReturn($return,"JSON");
+
+	}
+
+	/*
+	404操作页面
+	*/
+	public function _empty(){
+		header("HTTP/1.0 404 NOT　Found");
+		$this->display("Empty/index");  //让他找到404页面
 	}
 
 

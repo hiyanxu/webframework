@@ -281,4 +281,12 @@ class RoleController extends AdminController{
 		$this->ajaxReturn($return,"JSON");
 	}
 
+	/*
+	404操作页面
+	*/
+	public function _empty(){
+		header("HTTP/1.0 404 NOT　Found");
+		$this->display("Empty/index");  //让他找到404页面
+	}
+
 }

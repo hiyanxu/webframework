@@ -69,16 +69,16 @@ class NewsController extends AdminController{
 	信息分类获取列表数据的方法	
 	*/
 	public function newsCateAjaxIndex(){
-		$order=I("post.sort")." ".I("post.order");
-		if(I("post.sort")&&I("post.order")){
+		$order=I("get.sort")." ".I("get.order");
+		if(I("get.sort")&&I("get.order")){
 			$data=M()->table(array("category"=>"cate","news_category"=>"news_cate"))
 			->field("cate.cate_name,news_cate.isenable,news_cate.news_cate_id")
-			->where("cate.cate_id=news_cate.cate_id")->order($order)->limit(I("post.offset"),I("post.limit"))->select();
+			->where("cate.cate_id=news_cate.cate_id")->order($order)->limit(I("get.offset"),I("get.limit"))->select();
 		}
 		else{
 			$data=M()->table(array("category"=>"cate","news_category"=>"news_cate"))
 			->field("cate.cate_name,news_cate.isenable,news_cate.news_cate_id")
-			->where("cate.cate_id=news_cate.cate_id")->limit(I("post.offset"),I("post.limit"))->select();
+			->where("cate.cate_id=news_cate.cate_id")->limit(I("get.offset"),I("get.limit"))->select();
 		}
 		//var_dump($data);die();
 
@@ -186,13 +186,13 @@ class NewsController extends AdminController{
 		if(I("get.sort")&&I("get.order")){
 			$data=M()->table(array("workflow"=>"wf","news_workflow"=>"news_wf"))
 			->field("wf.workflow_name,news_wf.isenable,news_wf.news_workflow_id")
-			->where("wf.workflow_id=news_wf.workflow_id")->order($order)->limit(I("post.offset"),I("post.limit"))->select();
+			->where("wf.workflow_id=news_wf.workflow_id")->order($order)->limit(I("get.offset"),I("get.limit"))->select();
 			//var_dump($order);die();
 		}
 		else{
 			$data=M()->table(array("workflow"=>"wf","news_workflow"=>"news_wf"))
 			->field("wf.workflow_name,news_wf.isenable,news_wf.news_workflow_id")
-			->where("wf.workflow_id=news_wf.workflow_id")->limit(I("post.offset"),I("post.limit"))->select();
+			->where("wf.workflow_id=news_wf.workflow_id")->limit(I("get.offset"),I("get.limit"))->select();
 		}
 		//var_dump($data);die();
 		
@@ -362,7 +362,7 @@ class NewsController extends AdminController{
 				if($ex_status==""&&$news_org_id==""){  //表示当前是全部
 					$data=M()->table(array("category"=>"cate","news"=>"news","organization"=>"org"))
 					->field("news.workflow_step,cate.cate_name,news.news_name,news.news_id,news.addtime,news.news_time,org.org_name,news.add_account,news.ex_status,news.re_status")
-					->where("cate.cate_id=news.news_cate_id and news.news_org_id=org.org_id")->order($order)->limit(I("post.offset"),I("post.limit"))->select();
+					->where("cate.cate_id=news.news_cate_id and news.news_org_id=org.org_id")->order($order)->limit(I("get.offset"),I("get.limit"))->select();
 				
 					$data_count=M()->table(array("category"=>"cate","news"=>"news","organization"=>"org"))
 					->field("news.workflow_step,cate.cate_name,news.news_name,news.news_id,news.addtime,news.news_time,org.org_name,news.add_account,news.ex_status,news.re_status")
@@ -371,7 +371,7 @@ class NewsController extends AdminController{
 				else if($ex_status!=""&&$news_org_id==""){
 					$data=M()->table(array("category"=>"cate","news"=>"news","organization"=>"org"))
 					->field("news.workflow_step,cate.cate_name,news.news_name,news.news_id,news.addtime,news.news_time,org.org_name,news.add_account,news.ex_status,news.re_status")
-					->where("cate.cate_id=news.news_cate_id and news.news_org_id=org.org_id and news.ex_status='$ex_status'")->order($order)->limit(I("post.offset"),I("post.limit"))->select();
+					->where("cate.cate_id=news.news_cate_id and news.news_org_id=org.org_id and news.ex_status='$ex_status'")->order($order)->limit(I("get.offset"),I("get.limit"))->select();
 				
 					$data_count=M()->table(array("category"=>"cate","news"=>"news","organization"=>"org"))
 					->field("news.workflow_step,cate.cate_name,news.news_name,news.news_id,news.addtime,news.news_time,org.org_name,news.add_account,news.ex_status,news.re_status")
@@ -380,7 +380,7 @@ class NewsController extends AdminController{
 				else if($ex_status==""&&$news_org_id!=""){
 					$data=M()->table(array("category"=>"cate","news"=>"news","organization"=>"org"))
 					->field("news.workflow_step,cate.cate_name,news.news_name,news.news_id,news.addtime,news.news_time,org.org_name,news.add_account,news.ex_status,news.re_status")
-					->where("cate.cate_id=news.news_cate_id and news.news_org_id=org.org_id and news.news_org_id='$news_org_id'")->order($order)->limit(I("post.offset"),I("post.limit"))->select();
+					->where("cate.cate_id=news.news_cate_id and news.news_org_id=org.org_id and news.news_org_id='$news_org_id'")->order($order)->limit(I("get.offset"),I("get.limit"))->select();
 				
 					$data_count=M()->table(array("category"=>"cate","news"=>"news","organization"=>"org"))
 					->field("news.workflow_step,cate.cate_name,news.news_name,news.news_id,news.addtime,news.news_time,org.org_name,news.add_account,news.ex_status,news.re_status")
@@ -391,7 +391,7 @@ class NewsController extends AdminController{
 				else if($ex_status!=""&&$news_org_id!=""){
 					$data=M()->table(array("category"=>"cate","news"=>"news","organization"=>"org"))
 					->field("news.workflow_step,cate.cate_name,news.news_name,news.news_id,news.addtime,news.news_time,org.org_name,news.add_account,news.ex_status,news.re_status")
-					->where("cate.cate_id=news.news_cate_id and news.news_org_id=org.org_id and news.ex_status='$ex_status' and news.news_org_id='$news_org_id'")->order($order)->limit(I("post.offset"),I("post.limit"))->select();
+					->where("cate.cate_id=news.news_cate_id and news.news_org_id=org.org_id and news.ex_status='$ex_status' and news.news_org_id='$news_org_id'")->order($order)->limit(I("get.offset"),I("get.limit"))->select();
 				
 					$data_count=M()->table(array("category"=>"cate","news"=>"news","organization"=>"org"))
 					->field("news.workflow_step,cate.cate_name,news.news_name,news.news_id,news.addtime,news.news_time,org.org_name,news.add_account,news.ex_status,news.re_status")
@@ -409,7 +409,7 @@ class NewsController extends AdminController{
 					$data=M()->table(array("category"=>"cate","news"=>"news","organization"=>"org"))
 					->field("news.workflow_step,cate.cate_name,news.news_name,news.news_id,news.addtime,news.news_time,org.org_name,news.add_account,news.ex_status,news.re_status")
 					->where("cate.cate_id=news.news_cate_id and news.news_org_id=org.org_id and news.news_org_id in ($org_string)")
-					->order($order)->limit(I("post.offset"),I("post.limit"))->select();
+					->order($order)->limit(I("get.offset"),I("get.limit"))->select();
 				
 					$data_count=M()->table(array("category"=>"cate","news"=>"news","organization"=>"org"))
 					->field("news.workflow_step,cate.cate_name,news.news_name,news.news_id,news.addtime,news.news_time,org.org_name,news.add_account,news.ex_status,news.re_status")
@@ -419,7 +419,7 @@ class NewsController extends AdminController{
 					$data=M()->table(array("category"=>"cate","news"=>"news","organization"=>"org"))
 					->field("news.workflow_step,cate.cate_name,news.news_name,news.news_id,news.addtime,news.news_time,org.org_name,news.add_account,news.ex_status,news.re_status")
 					->where("cate.cate_id=news.news_cate_id and news.news_org_id=org.org_id and news.ex_status='$ex_status' and news.news_org_id in ($org_string)")
-					->order($order)->limit(I("post.offset"),I("post.limit"))->select();
+					->order($order)->limit(I("get.offset"),I("get.limit"))->select();
 				
 					$data_count=M()->table(array("category"=>"cate","news"=>"news","organization"=>"org"))
 					->field("news.workflow_step,cate.cate_name,news.news_name,news.news_id,news.addtime,news.news_time,org.org_name,news.add_account,news.ex_status,news.re_status")
@@ -949,6 +949,14 @@ class NewsController extends AdminController{
 		}
 		$this->ajaxReturn($return,"JSON");		
 
+	}
+
+	/*
+	404操作页面
+	*/
+	public function _empty(){
+		header("HTTP/1.0 404 NOT　Found");
+		$this->display("Empty/index");  //让他找到404页面
 	}
 
 	

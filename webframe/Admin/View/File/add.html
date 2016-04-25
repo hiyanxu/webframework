@@ -124,7 +124,6 @@
                 'uploadLimit': 10, // 定义允许的最大上传数量。当达到或者超过该数值时，将触发 onSelectError事件。 
                 'multi': true,
                 'onUploadSuccess': function(file, data, response) {
-                    alert(data);
                     var data = $.parseJSON(data);
                     var status = data.status;
                     if(status){

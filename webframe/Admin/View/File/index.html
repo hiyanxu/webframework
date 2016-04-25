@@ -120,27 +120,16 @@
 
 		function handle(value, row, index) {
 				console.log(row);
-				var btnEdit='';
-				var btnSendEx="";
-				var btnEx="";
-				var btnDel="";
-				if(row.isNeedSendEx=="ok"){					
-					btnSendEx='&nbsp;<a class="remove ml10 btn btn-xs btn-outline btn-default" href="javascript:void(0)" onclick="sendEx('+row.news_id+')" title="送审"><i class="glyphicon glyphicon-share"></i></a>';
-				}
-				if(row.isNeedEx=="ok"){
-					btnEx='&nbsp;<a class="remove ml10 btn btn-xs btn-outline btn-default" href="javascript:void(0)" onclick="examine('+row.news_id+')" title="审核"><i class="glyphicon glyphicon-check"></i></a>';
-				}
-				if(row.isNeedEdit=="ok"){
-					btnEdit='<a class="remove ml10 btn btn-xs btn-outline btn-default" href="javascript:void(0)" onclick="edit('+row.news_id+')" title="修改"><i class="glyphicon glyphicon-pencil"></i></a>';
-				}
-				if(row.isDel=="ok"){
-					btnDel='&nbsp;<a class="remove ml10 btn btn-xs btn-outline btn-default" href="javascript:void(0)" onclick="delmore('+row.news_id+')" title="删除"><i class="glyphicon glyphicon-trash"></i>',
-						'</a>'
-				}
 
 				return [
-						btnEdit+btnSendEx+btnDel+btnEx
-						
+						'</a>',
+						'<a class="edit ml10 btn btn-xs btn-outline btn-default" href="javascript:void(0)" onclick="haha('+"'"+row.download_path+"'"+')" title="下载">',
+						'<i class="glyphicon glyphicon-download-alt"></i>',
+						'</a>',
+						'&nbsp;&nbsp;',
+						'<a class="remove ml10 btn btn-xs btn-outline btn-warning" href="javascript:void(0)" onclick="delmore('+row.file_id+')" title="删除">',
+						'<i class="glyphicon glyphicon-trash"></i>',
+						'</a>'						
 						
 				].join('');
 			}
@@ -248,6 +237,62 @@
 						}
 				});
 		}
+
+		/*
+		下载操作
+		*/
+		function haha(path){
+			window.open(path);
+		}
+
+		/*
+		删除操作
+		*/
+		function delmore(file_id){
+			layer.confirm('	确定要删除吗？', {
+					btn: ['确定', '取消'],
+				}, function (index, layero) {
+					if (!file_id) {
+						var obj = $('#table').bootstrapTable('getSelections');
+						var ids = '';
+						$.each(obj, function (n, value) {
+							ids += value.file_id + ',';
+						});
+					} else {
+						var ids = file_id + ',';
+					}
+
+					var actionUrl = "__URL__/del";
+						$.ajax({
+						type: 'post',
+								url: actionUrl,
+								data: {ids:ids},
+								cache: false,
+								success: function (data) {
+									if (data.status) {
+												layer.msg(data.msg, {
+												icon: 1,
+														time: 1000,
+														skin: 'layer-ext-moon'
+												});
+												$('#table').bootstrapTable('refresh', ''); //刷新表格
+											} else {
+												layer.msg(data.msg, {
+												icon: 3,
+													time: 1000,
+													skin: 'layer-ext-moon'
+												});
+											}
+								},
+								error: function (data) {
+								layer.alert(index);
+								}
+						});
+				}, function (index) {
+
+				});
+		}
+
 
 
 

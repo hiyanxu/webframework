@@ -125,8 +125,8 @@
 			function queryParams(params) {
 
 				if (typeof (params.sort) == "undefined") {
-					params.sort = 'account.user_account_id'; //默认排序字段
-					params.order = 'desc';
+					params.sort = 'access_id'; //默认排序字段
+					params.order = 'Asc';
 				}
 
 				params.UserName = 4;

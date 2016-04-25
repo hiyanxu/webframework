@@ -67,5 +67,34 @@ class FileModel extends Model{
 		return $return;
 	}
 
+	/*
+	删除操作
+	*/
+	public function del($file_id=null){
+		if(is_null($file_id)){
+			$return=array(
+				"status"=>false,
+				"msg"=>"请给出有效数据"
+				);
+			return $return;
+		}
+		else{
+			if(M("file")->where("file_id='$file_id'")->delete()){
+				$return=array(
+					"status"=>true,
+					"msg"=>"删除成功"
+					);
+			}
+			else{
+				$return=array(
+					"status"=>false,
+					"msg"=>"删除失败"
+					);
+			}
+		}
+		return $return;
+	}
+
+
 
 }

@@ -24,12 +24,12 @@ class LoginlogController extends AdminController{
 	列表数据获取
 	*/
 	public function ajaxIndex(){
-		$order=I("post.sort")." ".I("post.order");
-		if(I("post.sort")&&I("post.order")){
-			$data=M("login_log")->order($order)->limit(I("post.offset"),I("post.limit"))->select();
+		$order=I("get.sort")." ".I("get.order");
+		if(I("get.sort")&&I("get.order")){
+			$data=M("login_log")->order($order)->limit(I("get.offset"),I("get.limit"))->select();
 		}
 		else{
-			$data=M("login_log")->limit(I("post.offset"),I("post.limit"))->select();
+			$data=M("login_log")->limit(I("get.offset"),I("get.limit"))->select();
 		}
 
 		foreach ($data as $key => $value) {
@@ -47,6 +47,14 @@ class LoginlogController extends AdminController{
 			"data"=>$data
 		);
 		$this->ajaxReturn($return,"JSON");
+	}
+
+	/*
+	404操作页面
+	*/
+	public function _empty(){
+		header("HTTP/1.0 404 NOT　Found");
+		$this->display("Empty/index");  //让他找到404页面
 	}
 
 }

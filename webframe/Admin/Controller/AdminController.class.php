@@ -43,13 +43,7 @@ class AdminController extends Controller{
 				}
 				else{  //表示当前token相符合，则我们判断当前cookie是否过期，若过期，则重新登录
 					$now=time();
-					if($now>$row[0]['timeout']){  //表示当前cookie过期，则销毁当前cookie，重新登录
-						//echo "<script>alert('刚才忘了设置过期时间咯！')</script>";
-						//var_dump("过期时间这");die();
-						cookie("cookie_loginuser",null);
-						$this->redirect("Login/showLogin");
-					}
-					else{
+					if($row[0]['timeout']==""||$row[0]['timeout']==0){  //表示当前没有记住密码，直接对照身份
 						$row_user_identify=md5($row[0]['user_account']."haha");  //
 						if($user_identify!=$row_user_identify){  //表示当前身份标识非法
 							//echo "<script>alert('身份标识有问题了')</script>";
@@ -70,7 +64,7 @@ class AdminController extends Controller{
 								if($fun_name!="ajaxIndex"){				
 
 									//echo "<script>alert('".$url."')</script>";
-									if($url=="Index/index"||$url=="Index/head"||$url=="Index/left"||$url=="Index/right"){  //我们默认给出显示首页的三个方法的权限
+									if($url=="Index/index"||$url=="Index/head"||$url=="Index/left"||$url=="Index/right"||$url="Index/logout"){  //我们默认给出显示首页的三个方法的权限
 										
 									}
 									else{
@@ -93,11 +87,63 @@ class AdminController extends Controller{
 
 						}
 					}
+					else{
+						if($now>$row[0]['timeout']){  //表示当前cookie过期，则销毁当前cookie，重新登录
+							//echo "<script>alert('刚才忘了设置过期时间咯！')</script>";
+							//var_dump("过期时间这");die();
+							cookie("cookie_loginuser",null);
+							$this->redirect("Login/showLogin");
+						}
+						else{
+							$row_user_identify=md5($row[0]['user_account']."haha");  //
+							if($user_identify!=$row_user_identify){  //表示当前身份标识非法
+								//echo "<script>alert('身份标识有问题了')</script>";
+								var_dump("非法身份");die();
+								cookie("cookie_loginuser",null);  //销毁cookie
+								$this->redirect("Login/showLogin");  //显示登录页面
+							}
+							else{  //表示当前用户合法，则我们可以让其进行登录，跳转到后台首页
+
+								$loginuser=session("loginuser");  //获取当前登录人的session值
+								if($loginuser!="admin"){  //只有在当前登录人不是admin的时候，我们才需要去获取当前人执行的请求方法，然后进行权限对比
+									$con_name=CONTROLLER_NAME;
+									$fun_name=ACTION_NAME;
+									$url=$con_name."/".$fun_name;
+									$access_urls=session("access_urls");  //将所有目前session中的权限获取出来
+									
+									//echo "<script>alert('".$url."')</script>";
+									if($fun_name!="ajaxIndex"){				
+
+										//echo "<script>alert('".$url."')</script>";
+										if($url=="Index/index"||$url=="Index/head"||$url=="Index/left"||$url=="Index/right"||$url="Index/logout"){  //我们默认给出显示首页的三个方法的权限
+											
+										}
+										else{
+											$is_have="error";
+											foreach ($access_urls as $key => $value) {
+												# code...
+												if(in_array($url, $value)){
+													$is_have="ok";
+													break;
+												}
+											}
+											
+											if($is_have=="error"){  //若最终为error，则表示当前没有该权限
+												echo "<script>alert('您不具备该权限!')</script>";
+												die();
+											}
+										}
+									}
+								}
+
+							}
+						}
+					}
 				}
 
 			}
 			else{  //表示当前根据这个cookie没有得到当前用户的信息，则让其去跳转登录
-				$this->display("login");  //显示登录页面，让用户去登录
+				$this->redirect("Login/showLogin");  //显示登录页面  //显示登录页面，让用户去登录
 			}
 
 		}

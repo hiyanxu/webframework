@@ -85,12 +85,12 @@ class UserController extends Controller{
 			if(I("get.search")){
 				$user_data=M()->table(array("user"=>"user","user_account"=>"account"))
 				->field("user.user_id,user.user_name,user.org_id,account.user_account,account.role_id,account.isenable,account.user_account_id")
-				->where("account.user_id=user.user_id and user.user_name like '%".I("get.search")."%' and account.is_admin='".$isAdmin."'")->order($order)->limit(I("post.offset"),I("post.limit"))->select();
+				->where("account.user_id=user.user_id and user.user_name like '%".I("get.search")."%' and account.is_admin='".$isAdmin."'")->order($order)->limit(I("get.offset"),I("get.limit"))->select();
 			}
 			else{
 				$user_data=M()->table(array("user"=>"user","user_account"=>"account"))
 				->field("user.user_id,user.user_name,user.org_id,account.user_account,account.role_id,account.isenable,account.user_account_id")
-				->where("account.user_id=user.user_id and account.is_admin='".$isAdmin."'")->order($order)->limit(I("post.offset"),I("post.limit"))->select();
+				->where("account.user_id=user.user_id and account.is_admin='".$isAdmin."'")->order($order)->limit(I("get.offset"),I("get.limit"))->select();
 			}
 			
 		}
@@ -98,12 +98,12 @@ class UserController extends Controller{
 			if(I("get.search")){
 				$user_data=M()->table(array("user"=>"user","user_account"=>"account"))
 				->field("user.user_id,user.user_name,user.org_id,account.user_account,account.role_id,account.isenable,account.user_account_id")
-				->where("account.user_id=user.user_id and user.user_name like '%".I("get.search")."%' and account.is_admin='".$isAdmin."'")->limit(I("post.offset"),I("post.limit"))->select();
+				->where("account.user_id=user.user_id and user.user_name like '%".I("get.search")."%' and account.is_admin='".$isAdmin."'")->limit(I("get.offset"),I("get.limit"))->select();
 			}
 			else{
 				$user_data=M()->table(array("user"=>"user","user_account"=>"account"))
 				->field("user.user_id,user.user_name,user.org_id,account.user_account,account.role_id,account.isenable,account.user_account_id")
-				->where("account.user_id=user.user_id and account.is_admin='".$isAdmin."'")->limit(I("post.offset"),I("post.limit"))->select();
+				->where("account.user_id=user.user_id and account.is_admin='".$isAdmin."'")->limit(I("get.offset"),I("get.limit"))->select();
 			}
 			
 		}
@@ -240,6 +240,14 @@ class UserController extends Controller{
 	*/
 	public function userIndex(){
 		$this->display("userIndex");
+	}
+
+	/*
+	404操作页面
+	*/
+	public function _empty(){
+		header("HTTP/1.0 404 NOT　Found");
+		$this->display("Empty/index");  //让他找到404页面
 	}
 
 }

@@ -45,12 +45,12 @@ class AccessController extends AdminController{
 	权限列表数据获取
 	*/
 	public function ajaxIndex(){
-		$order=I("post.sort")." ".I("post.order");
-		if(I("post.sort")&&I("post.order")){
-			$data=M("access")->field("access_id,access_name,access_url,remark")->order($order)->limit(I("post.offset"),I("post.limit"))->select();
+		$order=I("get.sort")." ".I("get.order");
+		if(I("get.sort")&&I("get.order")){
+			$data=M("access")->field("access_id,access_name,access_url,remark")->order($order)->limit(I("get.offset"),I("get.limit"))->select();
 		}
 		else{
-			$data=M("access")->field("access_id,access_name,access_url,remark")->limit(I("post.offset"),I("post.limit"))->select();
+			$data=M("access")->field("access_id,access_name,access_url,remark")->limit(I("get.offset"),I("get.limit"))->select();
 		}
 		$total_count=M("access")->field("access_id,access_name,access_url,remark")->count();
 
@@ -104,6 +104,14 @@ class AccessController extends AdminController{
 			$return=$obj->del($value);
 		}
 		$this->ajaxReturn($return,"JSON");
+	}
+
+	/*
+	404操作页面
+	*/
+	public function _empty(){
+		header("HTTP/1.0 404 NOT　Found");
+		$this->display("Empty/index");  //让他找到404页面
 	}
 
 }

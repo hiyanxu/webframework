@@ -47,9 +47,11 @@ class UseraccountController extends AdminController{
 	*/
 	public function insert(){
 		$data_post=I("post.");
+		$user_identify=md5($data_post["user_account"]."haha");
 		$data=array(
 			"user_account"=>$data_post['user_account'],
 			'user_pwd'=>$data_post['user_pwd'],
+			'user_identify'=>$user_identify,
 			'user_id'=>$data_post['user_id'],
 			"role_id"=>$data_post['role_id'],
 			'isenable'=>$data_post['isenable'],
@@ -70,7 +72,7 @@ class UseraccountController extends AdminController{
 			if(I("get.search")){
 				$data=M()->table(array("user"=>"user","user_account"=>"account"))
 				->field("user.user_name,account.user_account_id,account.user_account,account.role_id,account.isenable,account.is_admin")
-				->where("account.user_id=user.user_id and user.user_name like '%".I("get.search")."%'")->order($order)->limit(I("post.offset"),I("post.limit"))->select();
+				->where("account.user_id=user.user_id and user.user_name like '%".I("get.search")."%'")->order($order)->limit(I("get.offset"),I("get.limit"))->select();
 			}
 			else{
 				$data=M()->table(array("user"=>"user","user_account"=>"account"))
@@ -82,12 +84,12 @@ class UseraccountController extends AdminController{
 			if(I("get.search")){
 				$data=M()->table(array("user"=>"user","user_account"=>"account"))
 				->field("user.user_name,account.user_account_id,account.user_account,account.role_id,account.isenable,account.is_admin")
-				->where("account.user_id=user.user_id and user.user_name like '%".I("get.search")."%'")->limit(I("post.offset"),I("post.limit"))->select();
+				->where("account.user_id=user.user_id and user.user_name like '%".I("get.search")."%'")->limit(I("get.offset"),I("get.limit"))->select();
 			}
 			else{
 				$data=M()->table(array("user"=>"user","user_account"=>"account"))
 				->field("user.user_name,account.user_account_id,account.user_account,account.role_id,account.isenable,account.is_admin")
-				->where("account.user_id=user.user_id")->limit(I("post.offset"),I("post.limit"))->select();
+				->where("account.user_id=user.user_id")->limit(I("get.offset"),I("get.limit"))->select();
 			}
 		}
 		//对应字段进行转换
@@ -107,7 +109,7 @@ class UseraccountController extends AdminController{
 		else{
 			$data_account=M()->table(array("user"=>"user","user_account"=>"account"))
 				->field("user.user_name,account.user_account_id,account.user_account,account.role_id,account.isenable,account.is_admin")
-				->where("account.user_id=user.user_id")->limit(I("post.offset"),I("post.limit"))->count();
+				->where("account.user_id=user.user_id")->limit(I("get.offset"),I("get.limit"))->count();
 		}
 
 		$return=array(
@@ -150,10 +152,11 @@ class UseraccountController extends AdminController{
 	*/
 	public function update(){
 		$data_post=I("post.");
-
+		$user_identify=md5($data_post["user_account"]."haha");
 		$data=array(
 			"user_account"=>$data_post['user_account'],
 			'user_pwd'=>$data_post['user_pwd'],
+			'user_identify'=>$user_identify,
 			'user_id'=>$data_post['user_id'],
 			"role_id"=>$data_post['role_id'],
 			'isenable'=>$data_post['isenable'],
@@ -204,6 +207,14 @@ class UseraccountController extends AdminController{
 		$return_account=$accont_obj->editSave($user_account_id,$data);
 		$this->ajaxReturn($return_account,"JSON");
 
+	}
+
+	/*
+	404操作页面
+	*/
+	public function _empty(){
+		header("HTTP/1.0 404 NOT　Found");
+		$this->display("Empty/index");  //让他找到404页面
 	}
 
 

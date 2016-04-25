@@ -144,8 +144,10 @@ class LoginController extends Controller{
 		else{	
 			//记录登录日志，是没有设置cookie信息的登录日志
 			$token=md5(uniqid(rand(), TRUE));  //生成一个唯一标识token
+			$time='';
 			$data_token=array(
-				"token"=>$token
+				"token"=>$token,
+				"timeout"=>$time
 				);
 			M("user_account")->where("user_account='".$data_post["userName"]."' and user_pwd='".$data_post["userPwd"]."'")->save($data_token);  //更新数据库token
 			$user_identify=md5($data_post["userName"]."haha");  //根据当前登录用户生成唯一标识
@@ -335,6 +337,14 @@ class LoginController extends Controller{
 	public function getmenu($parentid=0){
 		$rows=M("menu")->where("parentid='".$parentid."' and ishidden=0")->field("menu_id,menu_name,parentid,menu_url")->order("sort asc")->select();
 		return $rows;
+	}
+
+	/*
+	404操作页面
+	*/
+	public function _empty(){
+		header("HTTP/1.0 404 NOT　Found");
+		$this->display("Empty/index");  //让他找到404页面
 	}
 
 }

@@ -26,7 +26,6 @@ class IndexController extends AdminController{
 	首页显示
 	*/
 	public function index(){
-		//var_dump("haha");die();
 		$this->display("Login/index");
 	}
 
@@ -62,6 +61,29 @@ class IndexController extends AdminController{
 	右边的显示
 	*/
 	public function right(){
+		$loginuser=session("loginuser");
+		$loginaccount=session("loginaccount");
+		$loginuserid=session("loginuserid");  //获取user_id
+		$row=M("user")->where("user_id='$loginuserid'")->field("user_name")->select();
+		$row_account=M("user_account")->where("user_account_id='$loginaccount'")->field("user_account,last_log_ip,last_log_time")->select();
+		if(!empty($row)&&!empty($row_account)){
+			$data=array(
+				"loginaccount"=>$row_account[0]['user_account'],
+				"user_name"=>$row[0]['user_name'],
+				"last_log_ip"=>$row_account[0]['last_log_ip'],
+				"last_log_time"=>date("Y-m-d H:i:s",$row_account[0]['last_log_time'])
+				);
+		}
+		else{
+			$data=array(
+				"loginaccount"=>$row_account[0]['user_account'],
+				"user_name"=>"",
+				"last_log_ip"=>$row_account[0]['last_log_ip'],
+				"last_log_time"=>date("Y-m-d H:i:s",$row_account[0]['last_log_time'])
+				);
+		}
+		
+		$this->assign("data",$data);
 		$this->display("Login/right");
 	}
 
@@ -100,6 +122,14 @@ class IndexController extends AdminController{
 
 		$this->redirect("Login/showLogin");
 
+	}
+
+	/*
+	404操作页面
+	*/
+	public function _empty(){
+		header("HTTP/1.0 404 NOT　Found");
+		$this->display("Empty/index");  //让他找到404页面
 	}
 
 

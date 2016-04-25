@@ -105,6 +105,7 @@ if (empty($_FILES) === false) {
 	if ($dir_name !== '') {
 		$save_path .= $dir_name . "/";
 		$save_url .= $dir_name . "/";
+		var_dump($save_path);die();
 		if (!file_exists($save_path)) {
 			mkdir($save_path);
 		}
